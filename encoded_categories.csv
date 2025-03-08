@@ -1,0 +1,16 @@
+Category,Original Value,Encoded Value
+Diagnosis,Allergy,0
+Diagnosis,Asthma,1
+Diagnosis,Bronchitis,2
+Diagnosis,COVID-19,3
+Diagnosis,Common Cold,4
+Diagnosis,Dengue,5
+Diagnosis,Flu,6
+Diagnosis,Food Poisoning,7
+Diagnosis,Gastroenteritis,8
+Diagnosis,Heart Disease,9
+Diagnosis,Malaria,10
+Diagnosis,Migraine,11
+Diagnosis,Pneumonia,12
+Diagnosis,Sinusitis,13
+Diagnosis,Tuberculosis,14

@@ -1,0 +1,501 @@
+Fever,Cough,Fatigue,Headache,Shortness of Breath,Nausea,Sore Throat,Runny Nose,Body Aches,Loss of Smell,Vomiting,Diarrhea,Chest Pain,Chills,Sweating,Dizziness,Skin Rash,Joint Pain,Blurred Vision,Weight Loss,Predicted Disease,Recommended Tests,Recommended Medicines,Medicine Suggestions
+0,1,0,1,0,0,0,0,0,0,1,1,1,1,1,0,1,0,1,1,Unknown Condition,General Health Checkup,Consult a Doctor,Seek Medical Attention
+0,0,0,1,1,0,1,1,0,0,1,0,0,0,0,1,1,0,1,0,Migraine,"MRI, CT Scan","Ibuprofen, Sumatriptan","Avoid Bright Lights, Maintain Sleep Schedule, Take Pain Relievers"
+1,0,0,1,0,1,0,1,0,0,0,0,0,1,1,1,1,0,0,0,Malaria,"Blood Smear, RDT Test","Chloroquine, Artemisinin","Use Mosquito Nets, Stay Hydrated, Complete Medication Course"
+0,0,1,0,0,0,0,1,0,0,1,1,0,1,0,1,1,1,0,1,Unknown Condition,General Health Checkup,Consult a Doctor,Seek Medical Attention
+0,0,1,1,1,1,1,1,0,0,0,0,1,0,0,1,0,1,1,1,Migraine,"MRI, CT Scan","Ibuprofen, Sumatriptan","Avoid Bright Lights, Maintain Sleep Schedule, Take Pain Relievers"
+1,0,1,1,0,1,0,1,0,1,1,1,0,0,0,0,1,1,1,1,Food Poisoning,"Stool Test, Blood Test","Oral Rehydration Salts, Anti-Nausea Pills","Stay Hydrated, Avoid Solid Foods, Rest Well"
+0,0,1,1,1,0,1,0,0,1,0,1,1,0,0,0,1,0,0,1,Unknown Condition,General Health Checkup,Consult a Doctor,Seek Medical Attention
+0,1,1,1,0,1,1,0,1,1,1,0,0,1,1,1,1,0,1,0,Migraine,"MRI, CT Scan","Ibuprofen, Sumatriptan","Avoid Bright Lights, Maintain Sleep Schedule, Take Pain Relievers"
+0,1,0,0,1,0,1,1,0,0,1,1,1,0,1,1,0,1,0,1,Heart Attack,General Health Checkup,Consult a Doctor,Seek Medical Attention
+0,0,0,0,1,0,1,0,1,0,0,1,0,0,1,1,1,0,0,0,Unknown Condition,General Health Checkup,Consult a Doctor,Seek Medical Attention
+1,1,1,0,1,1,0,1,0,1,0,0,0,1,0,0,0,0,1,1,Pneumonia,"Chest X-ray, Sputum Test","Antibiotics, Cough Syrup","Rest, Drink Warm Fluids, Take Prescribed Antibiotics"
+1,0,1,1,1,1,1,0,1,0,0,1,1,1,1,0,1,1,1,1,Flu,"Rapid Flu Test, Blood Test","Tamiflu, Acetaminophen","Rest, Stay Hydrated, Take Fever Reducers"
+0,1,1,0,1,0,1,0,1,1,0,0,1,0,0,1,0,0,1,1,Tuberculosis,"TB Skin Test, Chest X-ray","Isoniazid, Rifampin","Take Full Course of Medications, Avoid Public Places"
+1,0,1,1,1,0,0,0,0,1,1,0,1,1,1,0,1,0,0,0,Malaria,"Blood Smear, RDT Test","Chloroquine, Artemisinin","Use Mosquito Nets, Stay Hydrated, Complete Medication Course"
+1,0,0,1,0,0,0,1,0,0,1,1,0,1,1,0,1,1,0,0,Dengue,General Health Checkup,Consult a Doctor,Seek Medical Attention
+0,0,0,0,1,1,1,1,0,0,1,1,1,0,0,0,1,1,1,0,Food Poisoning,"Stool Test, Blood Test","Oral Rehydration Salts, Anti-Nausea Pills","Stay Hydrated, Avoid Solid Foods, Rest Well"
+1,1,1,0,0,0,0,1,0,0,1,0,1,0,1,0,1,0,0,1,Tuberculosis,"TB Skin Test, Chest X-ray","Isoniazid, Rifampin","Take Full Course of Medications, Avoid Public Places"
+1,0,1,0,0,0,0,1,0,0,0,1,0,1,1,1,0,0,1,0,Malaria,"Blood Smear, RDT Test","Chloroquine, Artemisinin","Use Mosquito Nets, Stay Hydrated, Complete Medication Course"
+0,0,0,1,1,0,0,0,1,1,1,1,1,1,1,0,1,0,1,0,Unknown Condition,General Health Checkup,Consult a Doctor,Seek Medical Attention
+0,1,1,1,1,0,1,0,0,1,1,0,0,1,0,1,1,1,0,1,Tuberculosis,"TB Skin Test, Chest X-ray","Isoniazid, Rifampin","Take Full Course of Medications, Avoid Public Places"
+0,0,1,1,0,0,1,0,0,0,1,0,1,0,0,0,1,0,1,1,Unknown Condition,General Health Checkup,Consult a Doctor,Seek Medical Attention
+1,1,1,0,1,1,0,1,0,0,0,1,0,0,0,0,0,0,1,1,Pneumonia,"Chest X-ray, Sputum Test","Antibiotics, Cough Syrup","Rest, Drink Warm Fluids, Take Prescribed Antibiotics"
+1,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,1,0,1,1,Unknown Condition,General Health Checkup,Consult a Doctor,Seek Medical Attention
+1,1,0,1,1,0,1,0,1,1,1,1,0,1,0,1,0,0,1,0,Pneumonia,"Chest X-ray, Sputum Test","Antibiotics, Cough Syrup","Rest, Drink Warm Fluids, Take Prescribed Antibiotics"
+1,0,1,0,0,0,1,0,0,1,0,0,0,1,0,1,1,0,1,0,Unknown Condition,General Health Checkup,Consult a Doctor,Seek Medical Attention
+1,1,0,0,0,1,1,0,1,0,1,1,0,0,1,0,0,1,1,0,Food Poisoning,"Stool Test, Blood Test","Oral Rehydration Salts, Anti-Nausea Pills","Stay Hydrated, Avoid Solid Foods, Rest Well"
+1,0,1,1,1,0,1,0,1,0,0,1,1,1,0,1,1,1,0,1,Flu,"Rapid Flu Test, Blood Test","Tamiflu, Acetaminophen","Rest, Stay Hydrated, Take Fever Reducers"
+0,1,1,0,0,1,1,1,0,1,0,0,0,1,1,1,0,0,1,1,Tuberculosis,"TB Skin Test, Chest X-ray","Isoniazid, Rifampin","Take Full Course of Medications, Avoid Public Places"
+0,0,0,1,1,1,0,1,0,0,0,0,0,1,0,0,0,1,1,1,Unknown Condition,General Health Checkup,Consult a Doctor,Seek Medical Attention
+1,0,0,1,1,1,1,0,1,0,0,0,0,1,0,0,0,0,1,1,Unknown Condition,General Health Checkup,Consult a Doctor,Seek Medical Attention
+1,0,1,1,0,0,1,1,1,1,0,1,0,0,1,0,1,0,0,0,Flu,"Rapid Flu Test, Blood Test","Tamiflu, Acetaminophen","Rest, Stay Hydrated, Take Fever Reducers"
+1,0,0,1,0,0,1,1,1,0,1,1,0,1,1,0,1,0,1,0,Malaria,"Blood Smear, RDT Test","Chloroquine, Artemisinin","Use Mosquito Nets, Stay Hydrated, Complete Medication Course"
+1,1,0,1,1,1,1,0,0,1,1,0,0,0,0,0,0,1,0,0,Pneumonia,"Chest X-ray, Sputum Test","Antibiotics, Cough Syrup","Rest, Drink Warm Fluids, Take Prescribed Antibiotics"
+0,1,1,0,0,0,0,1,0,1,1,1,1,1,1,0,1,0,0,0,Bronchitis,"Chest X-ray, Pulmonary Test","Cough Syrup, Bronchodilators","Avoid Smoke, Stay Hydrated, Rest"
+0,1,0,1,1,0,1,1,1,0,1,0,1,1,1,0,1,0,0,0,Unknown Condition,General Health Checkup,Consult a Doctor,Seek Medical Attention
+1,1,1,1,1,0,1,0,0,1,0,1,1,0,1,1,0,1,0,1,Pneumonia,"Chest X-ray, Sputum Test","Antibiotics, Cough Syrup","Rest, Drink Warm Fluids, Take Prescribed Antibiotics"
+0,0,1,1,1,1,1,0,1,0,1,0,1,1,1,0,1,1,1,0,Unknown Condition,General Health Checkup,Consult a Doctor,Seek Medical Attention
+1,1,0,0,1,0,0,1,1,0,1,1,0,1,1,0,1,1,0,0,Pneumonia,"Chest X-ray, Sputum Test","Antibiotics, Cough Syrup","Rest, Drink Warm Fluids, Take Prescribed Antibiotics"
+1,1,1,0,1,0,0,1,0,1,1,1,1,1,1,1,0,0,0,0,Pneumonia,"Chest X-ray, Sputum Test","Antibiotics, Cough Syrup","Rest, Drink Warm Fluids, Take Prescribed Antibiotics"
+0,0,1,0,1,1,0,0,0,1,1,0,1,0,0,0,0,1,1,0,Unknown Condition,General Health Checkup,Consult a Doctor,Seek Medical Attention
+1,1,1,0,1,0,1,0,1,0,1,1,0,0,1,0,0,1,1,1,Pneumonia,"Chest X-ray, Sputum Test","Antibiotics, Cough Syrup","Rest, Drink Warm Fluids, Take Prescribed Antibiotics"
+1,1,0,1,1,1,0,0,1,0,0,1,0,0,1,1,0,1,0,1,Pneumonia,"Chest X-ray, Sputum Test","Antibiotics, Cough Syrup","Rest, Drink Warm Fluids, Take Prescribed Antibiotics"
+0,0,0,0,0,0,1,1,0,0,1,1,0,0,1,1,1,0,1,1,Unknown Condition,General Health Checkup,Consult a Doctor,Seek Medical Attention
+1,0,0,1,1,1,0,0,1,1,1,0,0,0,0,0,1,1,1,1,Dengue,General Health Checkup,Consult a Doctor,Seek Medical Attention
+0,0,1,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,1,Unknown Condition,General Health Checkup,Consult a Doctor,Seek Medical Attention
+0,1,0,1,0,1,0,0,0,0,1,0,0,1,0,1,0,1,1,1,Migraine,"MRI, CT Scan","Ibuprofen, Sumatriptan","Avoid Bright Lights, Maintain Sleep Schedule, Take Pain Relievers"
+0,1,0,1,1,1,0,0,0,0,0,1,0,0,1,0,0,1,1,1,Unknown Condition,General Health Checkup,Consult a Doctor,Seek Medical Attention
+0,1,0,1,0,0,0,0,1,0,1,1,1,1,1,0,1,0,0,0,Unknown Condition,General Health Checkup,Consult a Doctor,Seek Medical Attention
+1,1,0,0,1,0,0,1,0,1,0,0,1,0,0,1,1,0,0,1,Pneumonia,"Chest X-ray, Sputum Test","Antibiotics, Cough Syrup","Rest, Drink Warm Fluids, Take Prescribed Antibiotics"
+0,1,1,0,1,1,1,1,1,0,0,1,0,1,1,0,1,1,0,0,Unknown Condition,General Health Checkup,Consult a Doctor,Seek Medical Attention
+1,1,1,1,0,0,1,1,1,0,1,0,0,1,0,0,1,1,1,1,Flu,"Rapid Flu Test, Blood Test","Tamiflu, Acetaminophen","Rest, Stay Hydrated, Take Fever Reducers"
+0,0,1,1,1,0,1,0,0,1,0,1,0,1,0,0,1,0,1,1,Unknown Condition,General Health Checkup,Consult a Doctor,Seek Medical Attention
+0,1,0,1,0,1,1,1,0,0,1,0,1,1,1,1,1,1,0,0,Heart Attack,General Health Checkup,Consult a Doctor,Seek Medical Attention
+0,0,0,0,1,1,1,1,0,1,0,0,1,1,1,0,1,0,1,0,Unknown Condition,General Health Checkup,Consult a Doctor,Seek Medical Attention
+0,1,1,0,1,0,1,1,0,0,1,0,0,1,1,0,1,1,0,1,Tuberculosis,"TB Skin Test, Chest X-ray","Isoniazid, Rifampin","Take Full Course of Medications, Avoid Public Places"
+1,1,0,1,1,0,0,0,0,0,1,0,0,1,1,1,1,1,0,1,Pneumonia,"Chest X-ray, Sputum Test","Antibiotics, Cough Syrup","Rest, Drink Warm Fluids, Take Prescribed Antibiotics"
+0,0,0,1,0,0,1,1,0,1,1,1,0,1,0,1,1,0,0,0,Unknown Condition,General Health Checkup,Consult a Doctor,Seek Medical Attention
+1,1,1,0,1,0,1,1,0,0,1,0,1,1,0,1,0,1,1,1,Pneumonia,"Chest X-ray, Sputum Test","Antibiotics, Cough Syrup","Rest, Drink Warm Fluids, Take Prescribed Antibiotics"
+1,1,0,1,0,1,1,1,1,0,1,1,0,0,1,0,0,1,1,1,Food Poisoning,"Stool Test, Blood Test","Oral Rehydration Salts, Anti-Nausea Pills","Stay Hydrated, Avoid Solid Foods, Rest Well"
+0,1,0,1,0,1,1,1,1,0,0,1,0,0,1,1,0,1,0,0,Unknown Condition,General Health Checkup,Consult a Doctor,Seek Medical Attention
+1,0,0,0,0,0,1,1,0,0,1,0,1,1,0,0,0,1,1,0,Unknown Condition,General Health Checkup,Consult a Doctor,Seek Medical Attention
+0,1,1,1,0,1,1,0,1,0,1,1,1,0,1,1,1,0,0,0,Food Poisoning,"Stool Test, Blood Test","Oral Rehydration Salts, Anti-Nausea Pills","Stay Hydrated, Avoid Solid Foods, Rest Well"
+0,0,0,0,1,1,0,1,1,1,1,1,1,1,1,0,0,0,0,0,Food Poisoning,"Stool Test, Blood Test","Oral Rehydration Salts, Anti-Nausea Pills","Stay Hydrated, Avoid Solid Foods, Rest Well"
+1,0,0,1,0,0,0,0,0,0,1,0,1,1,1,0,1,1,1,1,Dengue,General Health Checkup,Consult a Doctor,Seek Medical Attention
+1,0,1,0,0,0,1,0,1,1,0,1,0,0,0,1,1,0,1,1,Flu,"Rapid Flu Test, Blood Test","Tamiflu, Acetaminophen","Rest, Stay Hydrated, Take Fever Reducers"
+1,1,1,1,1,0,0,0,1,0,1,1,0,1,0,1,1,1,1,1,Pneumonia,"Chest X-ray, Sputum Test","Antibiotics, Cough Syrup","Rest, Drink Warm Fluids, Take Prescribed Antibiotics"
+0,0,0,0,1,1,0,1,0,1,0,0,1,0,1,0,0,1,0,0,Unknown Condition,General Health Checkup,Consult a Doctor,Seek Medical Attention
+0,1,0,0,1,1,1,1,1,0,0,0,1,0,1,0,0,1,1,0,Unknown Condition,General Health Checkup,Consult a Doctor,Seek Medical Attention
+0,1,1,0,0,0,1,0,1,1,0,0,1,1,0,0,1,0,1,1,Tuberculosis,"TB Skin Test, Chest X-ray","Isoniazid, Rifampin","Take Full Course of Medications, Avoid Public Places"
+0,1,1,0,0,0,0,0,1,0,0,1,0,0,1,1,1,0,0,1,Tuberculosis,"TB Skin Test, Chest X-ray","Isoniazid, Rifampin","Take Full Course of Medications, Avoid Public Places"
+1,0,1,1,0,0,1,1,0,0,1,0,0,0,1,1,0,0,1,1,Migraine,"MRI, CT Scan","Ibuprofen, Sumatriptan","Avoid Bright Lights, Maintain Sleep Schedule, Take Pain Relievers"
+0,0,1,1,1,1,0,0,1,0,0,0,1,1,0,0,1,0,0,0,Unknown Condition,General Health Checkup,Consult a Doctor,Seek Medical Attention
+0,0,1,0,1,0,1,1,1,1,1,0,0,0,1,0,1,1,0,0,Unknown Condition,General Health Checkup,Consult a Doctor,Seek Medical Attention
+1,1,1,0,1,0,0,1,1,0,1,1,0,0,0,1,1,1,0,1,Pneumonia,"Chest X-ray, Sputum Test","Antibiotics, Cough Syrup","Rest, Drink Warm Fluids, Take Prescribed Antibiotics"
+1,1,1,1,0,0,0,1,0,0,1,0,0,0,0,1,1,1,0,0,Dengue,General Health Checkup,Consult a Doctor,Seek Medical Attention
+0,0,0,0,0,0,0,0,1,0,0,0,1,1,0,1,1,0,1,0,Unknown Condition,General Health Checkup,Consult a Doctor,Seek Medical Attention
+0,1,0,1,1,0,1,1,1,1,1,0,1,0,1,0,0,1,1,1,Unknown Condition,General Health Checkup,Consult a Doctor,Seek Medical Attention
+1,0,1,0,1,1,1,1,1,1,1,1,0,1,0,0,0,1,0,0,Flu,"Rapid Flu Test, Blood Test","Tamiflu, Acetaminophen","Rest, Stay Hydrated, Take Fever Reducers"
+1,0,0,1,0,0,0,1,0,0,1,1,0,1,0,0,1,0,1,1,Unknown Condition,General Health Checkup,Consult a Doctor,Seek Medical Attention
+1,1,1,1,0,1,0,0,0,0,1,1,1,0,1,1,0,0,1,0,Food Poisoning,"Stool Test, Blood Test","Oral Rehydration Salts, Anti-Nausea Pills","Stay Hydrated, Avoid Solid Foods, Rest Well"
+0,0,1,1,1,1,0,0,1,0,0,0,0,0,0,0,1,1,1,1,Unknown Condition,General Health Checkup,Consult a Doctor,Seek Medical Attention
+1,0,0,0,0,0,0,0,1,1,1,1,1,0,0,0,1,0,1,1,Unknown Condition,General Health Checkup,Consult a Doctor,Seek Medical Attention
+1,0,1,1,0,1,1,0,0,1,1,1,0,0,1,0,0,0,1,1,Food Poisoning,"Stool Test, Blood Test","Oral Rehydration Salts, Anti-Nausea Pills","Stay Hydrated, Avoid Solid Foods, Rest Well"
+0,1,1,1,1,1,1,0,1,1,0,0,0,1,0,1,1,1,1,1,Migraine,"MRI, CT Scan","Ibuprofen, Sumatriptan","Avoid Bright Lights, Maintain Sleep Schedule, Take Pain Relievers"
+1,1,1,1,1,1,0,0,0,1,1,0,0,0,0,1,0,0,1,0,Pneumonia,"Chest X-ray, Sputum Test","Antibiotics, Cough Syrup","Rest, Drink Warm Fluids, Take Prescribed Antibiotics"
+0,1,1,0,1,0,1,1,1,0,0,0,1,1,1,1,0,1,1,1,Heart Attack,General Health Checkup,Consult a Doctor,Seek Medical Attention
+1,0,1,1,1,0,0,0,0,1,0,1,0,0,0,0,0,1,1,0,Unknown Condition,General Health Checkup,Consult a Doctor,Seek Medical Attention
+1,1,0,0,0,1,0,1,1,1,1,1,0,0,0,0,0,0,0,0,Food Poisoning,"Stool Test, Blood Test","Oral Rehydration Salts, Anti-Nausea Pills","Stay Hydrated, Avoid Solid Foods, Rest Well"
+1,0,0,1,1,0,1,0,1,0,0,0,0,0,1,1,0,0,1,0,Migraine,"MRI, CT Scan","Ibuprofen, Sumatriptan","Avoid Bright Lights, Maintain Sleep Schedule, Take Pain Relievers"
+1,1,1,0,1,0,0,0,1,0,1,0,0,1,0,1,1,1,1,1,Pneumonia,"Chest X-ray, Sputum Test","Antibiotics, Cough Syrup","Rest, Drink Warm Fluids, Take Prescribed Antibiotics"
+1,1,1,1,0,1,0,1,0,0,1,0,1,0,0,0,1,1,0,1,Dengue,General Health Checkup,Consult a Doctor,Seek Medical Attention
+0,1,1,0,1,0,1,0,0,1,1,1,0,1,1,1,1,0,0,1,Tuberculosis,"TB Skin Test, Chest X-ray","Isoniazid, Rifampin","Take Full Course of Medications, Avoid Public Places"
+1,0,0,1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,1,0,Unknown Condition,General Health Checkup,Consult a Doctor,Seek Medical Attention
+0,1,0,0,1,1,1,0,1,1,1,1,1,0,1,0,0,0,1,0,Food Poisoning,"Stool Test, Blood Test","Oral Rehydration Salts, Anti-Nausea Pills","Stay Hydrated, Avoid Solid Foods, Rest Well"
+1,0,1,1,1,0,0,1,1,1,0,0,1,1,0,1,1,1,1,0,Flu,"Rapid Flu Test, Blood Test","Tamiflu, Acetaminophen","Rest, Stay Hydrated, Take Fever Reducers"
+0,1,1,0,1,1,0,0,1,0,1,1,1,0,1,1,0,0,1,0,Food Poisoning,"Stool Test, Blood Test","Oral Rehydration Salts, Anti-Nausea Pills","Stay Hydrated, Avoid Solid Foods, Rest Well"
+0,1,0,0,1,0,1,0,0,1,1,0,1,1,1,0,1,0,1,0,Unknown Condition,General Health Checkup,Consult a Doctor,Seek Medical Attention
+1,1,0,1,1,0,1,1,1,1,0,1,1,0,0,0,0,1,0,1,Pneumonia,"Chest X-ray, Sputum Test","Antibiotics, Cough Syrup","Rest, Drink Warm Fluids, Take Prescribed Antibiotics"
+0,0,1,0,0,1,0,1,1,1,0,1,0,1,1,0,0,0,0,0,Unknown Condition,General Health Checkup,Consult a Doctor,Seek Medical Attention
+0,1,0,1,0,1,1,0,0,1,1,1,1,1,1,1,1,0,0,0,Food Poisoning,"Stool Test, Blood Test","Oral Rehydration Salts, Anti-Nausea Pills","Stay Hydrated, Avoid Solid Foods, Rest Well"
+1,1,0,1,0,1,0,1,1,0,0,0,1,1,0,1,1,0,0,0,Unknown Condition,General Health Checkup,Consult a Doctor,Seek Medical Attention
+1,1,0,0,0,0,1,0,1,1,1,0,1,0,1,0,1,0,0,0,Unknown Condition,General Health Checkup,Consult a Doctor,Seek Medical Attention
+1,1,0,1,0,1,1,0,0,1,0,0,0,0,0,0,1,0,1,0,Unknown Condition,General Health Checkup,Consult a Doctor,Seek Medical Attention
+1,1,1,0,1,0,1,0,0,1,0,0,1,0,0,0,1,1,1,0,Pneumonia,"Chest X-ray, Sputum Test","Antibiotics, Cough Syrup","Rest, Drink Warm Fluids, Take Prescribed Antibiotics"
+0,1,1,0,1,1,1,0,0,1,1,1,0,0,1,0,0,1,1,1,Food Poisoning,"Stool Test, Blood Test","Oral Rehydration Salts, Anti-Nausea Pills","Stay Hydrated, Avoid Solid Foods, Rest Well"
+1,1,0,0,0,0,0,1,0,1,1,0,0,0,0,0,0,1,1,0,Unknown Condition,General Health Checkup,Consult a Doctor,Seek Medical Attention
+1,1,0,1,0,1,0,0,1,0,0,0,1,1,0,1,1,1,0,0,Dengue,General Health Checkup,Consult a Doctor,Seek Medical Attention
+1,1,1,0,1,1,0,0,1,1,1,0,1,1,1,1,0,1,1,0,Pneumonia,"Chest X-ray, Sputum Test","Antibiotics, Cough Syrup","Rest, Drink Warm Fluids, Take Prescribed Antibiotics"
+0,0,1,0,0,0,1,0,0,1,0,0,1,1,1,0,1,0,1,0,Unknown Condition,General Health Checkup,Consult a Doctor,Seek Medical Attention
+1,1,1,1,1,0,1,1,1,1,1,0,0,0,0,0,1,1,1,1,Pneumonia,"Chest X-ray, Sputum Test","Antibiotics, Cough Syrup","Rest, Drink Warm Fluids, Take Prescribed Antibiotics"
+1,1,1,1,0,1,1,0,1,0,1,1,0,1,0,0,1,0,1,0,Flu,"Rapid Flu Test, Blood Test","Tamiflu, Acetaminophen","Rest, Stay Hydrated, Take Fever Reducers"
+1,0,1,0,1,1,1,0,1,1,0,1,0,1,0,0,0,1,1,0,Flu,"Rapid Flu Test, Blood Test","Tamiflu, Acetaminophen","Rest, Stay Hydrated, Take Fever Reducers"
+1,1,0,0,0,0,0,0,1,1,1,1,0,1,1,0,0,0,1,0,Malaria,"Blood Smear, RDT Test","Chloroquine, Artemisinin","Use Mosquito Nets, Stay Hydrated, Complete Medication Course"
+0,1,1,0,1,0,0,0,0,1,0,0,0,1,1,1,0,1,1,0,Unknown Condition,General Health Checkup,Consult a Doctor,Seek Medical Attention
+0,0,0,1,0,1,1,1,1,1,1,0,1,1,0,0,0,0,0,0,Unknown Condition,General Health Checkup,Consult a Doctor,Seek Medical Attention
+0,0,1,1,0,0,1,0,0,1,0,1,0,0,1,1,1,1,1,0,Migraine,"MRI, CT Scan","Ibuprofen, Sumatriptan","Avoid Bright Lights, Maintain Sleep Schedule, Take Pain Relievers"
+1,0,0,0,0,1,1,0,1,1,1,0,0,0,0,0,1,1,1,0,Dengue,General Health Checkup,Consult a Doctor,Seek Medical Attention
+1,1,1,0,1,0,1,0,0,1,0,0,1,0,1,1,0,0,1,0,Pneumonia,"Chest X-ray, Sputum Test","Antibiotics, Cough Syrup","Rest, Drink Warm Fluids, Take Prescribed Antibiotics"
+1,1,0,0,1,1,1,0,0,0,0,0,0,1,0,0,0,1,0,0,Pneumonia,"Chest X-ray, Sputum Test","Antibiotics, Cough Syrup","Rest, Drink Warm Fluids, Take Prescribed Antibiotics"
+0,0,1,1,1,1,0,1,0,1,1,0,0,0,0,1,1,0,1,1,Migraine,"MRI, CT Scan","Ibuprofen, Sumatriptan","Avoid Bright Lights, Maintain Sleep Schedule, Take Pain Relievers"
+0,1,0,0,1,1,0,1,1,1,1,1,0,0,1,1,1,0,1,1,Food Poisoning,"Stool Test, Blood Test","Oral Rehydration Salts, Anti-Nausea Pills","Stay Hydrated, Avoid Solid Foods, Rest Well"
+1,1,1,0,1,1,0,0,1,1,1,1,1,0,0,1,1,1,1,0,Pneumonia,"Chest X-ray, Sputum Test","Antibiotics, Cough Syrup","Rest, Drink Warm Fluids, Take Prescribed Antibiotics"
+0,1,0,0,1,1,0,0,1,1,1,1,1,0,0,0,0,1,0,0,Food Poisoning,"Stool Test, Blood Test","Oral Rehydration Salts, Anti-Nausea Pills","Stay Hydrated, Avoid Solid Foods, Rest Well"
+0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,1,0,0,0,Unknown Condition,General Health Checkup,Consult a Doctor,Seek Medical Attention
+0,0,0,1,0,0,0,1,1,0,1,0,1,0,0,1,0,0,1,0,Migraine,"MRI, CT Scan","Ibuprofen, Sumatriptan","Avoid Bright Lights, Maintain Sleep Schedule, Take Pain Relievers"
+1,1,0,0,0,1,1,1,0,0,1,0,1,1,0,1,0,1,1,0,Unknown Condition,General Health Checkup,Consult a Doctor,Seek Medical Attention
+1,1,1,1,1,0,0,1,0,1,1,0,1,0,0,1,1,0,0,0,Pneumonia,"Chest X-ray, Sputum Test","Antibiotics, Cough Syrup","Rest, Drink Warm Fluids, Take Prescribed Antibiotics"
+0,0,0,0,1,1,0,0,0,1,1,0,0,1,1,1,0,0,1,0,Unknown Condition,General Health Checkup,Consult a Doctor,Seek Medical Attention
+0,1,1,1,0,0,0,0,0,0,0,0,1,0,1,0,1,1,1,0,Bronchitis,"Chest X-ray, Pulmonary Test","Cough Syrup, Bronchodilators","Avoid Smoke, Stay Hydrated, Rest"
+1,1,0,0,0,0,0,0,0,1,1,1,1,1,1,1,0,0,1,0,Heart Attack,General Health Checkup,Consult a Doctor,Seek Medical Attention
+0,1,1,0,1,1,0,0,1,0,1,1,1,0,0,1,1,0,0,1,Food Poisoning,"Stool Test, Blood Test","Oral Rehydration Salts, Anti-Nausea Pills","Stay Hydrated, Avoid Solid Foods, Rest Well"
+1,1,0,1,1,0,0,1,0,0,0,0,0,1,0,1,1,0,0,0,Pneumonia,"Chest X-ray, Sputum Test","Antibiotics, Cough Syrup","Rest, Drink Warm Fluids, Take Prescribed Antibiotics"
+1,0,0,0,0,0,1,0,0,0,0,0,1,0,0,1,0,0,0,0,Unknown Condition,General Health Checkup,Consult a Doctor,Seek Medical Attention
+0,1,1,1,0,0,0,0,1,0,0,1,1,1,1,0,0,1,0,1,Tuberculosis,"TB Skin Test, Chest X-ray","Isoniazid, Rifampin","Take Full Course of Medications, Avoid Public Places"
+0,1,1,0,0,1,1,1,0,1,0,1,1,0,1,0,0,1,0,1,Tuberculosis,"TB Skin Test, Chest X-ray","Isoniazid, Rifampin","Take Full Course of Medications, Avoid Public Places"
+1,0,1,1,1,0,1,1,1,1,0,0,0,0,1,0,1,1,0,1,Flu,"Rapid Flu Test, Blood Test","Tamiflu, Acetaminophen","Rest, Stay Hydrated, Take Fever Reducers"
+0,1,1,0,0,0,1,0,0,1,1,0,1,0,0,1,1,0,1,1,Tuberculosis,"TB Skin Test, Chest X-ray","Isoniazid, Rifampin","Take Full Course of Medications, Avoid Public Places"
+0,0,0,1,1,1,1,1,1,1,0,0,1,1,0,1,1,0,0,0,Unknown Condition,General Health Checkup,Consult a Doctor,Seek Medical Attention
+1,1,1,0,0,1,0,1,0,0,0,0,1,1,0,1,0,0,1,1,Tuberculosis,"TB Skin Test, Chest X-ray","Isoniazid, Rifampin","Take Full Course of Medications, Avoid Public Places"
+0,0,0,0,1,1,0,1,0,0,0,1,1,1,0,0,1,0,0,0,Unknown Condition,General Health Checkup,Consult a Doctor,Seek Medical Attention
+1,0,0,0,0,1,1,0,1,1,1,1,1,0,0,0,0,0,0,0,Food Poisoning,"Stool Test, Blood Test","Oral Rehydration Salts, Anti-Nausea Pills","Stay Hydrated, Avoid Solid Foods, Rest Well"
+0,0,0,1,1,0,0,0,1,1,0,1,1,0,1,1,0,0,1,1,Migraine,"MRI, CT Scan","Ibuprofen, Sumatriptan","Avoid Bright Lights, Maintain Sleep Schedule, Take Pain Relievers"
+1,0,1,0,0,1,1,0,1,1,1,1,0,0,1,0,1,1,1,1,Flu,"Rapid Flu Test, Blood Test","Tamiflu, Acetaminophen","Rest, Stay Hydrated, Take Fever Reducers"
+1,1,1,1,1,1,1,1,0,0,1,0,0,1,0,0,1,1,0,1,Pneumonia,"Chest X-ray, Sputum Test","Antibiotics, Cough Syrup","Rest, Drink Warm Fluids, Take Prescribed Antibiotics"
+1,0,0,0,1,0,1,1,0,1,1,1,1,0,0,1,1,1,0,1,Dengue,General Health Checkup,Consult a Doctor,Seek Medical Attention
+1,0,0,1,0,0,0,1,0,1,0,1,1,0,0,1,0,1,0,0,Unknown Condition,General Health Checkup,Consult a Doctor,Seek Medical Attention
+0,1,0,0,0,0,0,1,1,0,0,1,1,1,1,1,1,1,1,1,Heart Attack,General Health Checkup,Consult a Doctor,Seek Medical Attention
+1,1,1,1,0,0,1,1,0,0,0,0,1,1,1,1,0,0,1,0,Migraine,"MRI, CT Scan","Ibuprofen, Sumatriptan","Avoid Bright Lights, Maintain Sleep Schedule, Take Pain Relievers"
+0,0,1,0,0,0,0,1,0,1,0,1,1,0,0,1,1,0,0,1,Unknown Condition,General Health Checkup,Consult a Doctor,Seek Medical Attention
+1,0,1,1,1,1,0,1,0,1,0,1,1,1,1,0,1,1,1,1,Dengue,General Health Checkup,Consult a Doctor,Seek Medical Attention
+0,1,0,0,1,0,1,1,0,0,1,1,0,0,0,1,0,0,0,0,Unknown Condition,General Health Checkup,Consult a Doctor,Seek Medical Attention
+0,1,1,0,1,0,1,1,0,1,0,1,1,0,0,0,0,0,1,1,Tuberculosis,"TB Skin Test, Chest X-ray","Isoniazid, Rifampin","Take Full Course of Medications, Avoid Public Places"
+1,1,1,0,1,0,0,0,1,1,0,0,1,0,0,1,0,1,0,1,Pneumonia,"Chest X-ray, Sputum Test","Antibiotics, Cough Syrup","Rest, Drink Warm Fluids, Take Prescribed Antibiotics"
+1,1,0,0,0,1,1,0,1,0,0,0,1,1,0,0,1,1,1,1,Dengue,General Health Checkup,Consult a Doctor,Seek Medical Attention
+0,0,0,1,0,1,1,0,1,0,0,1,0,0,1,0,0,1,1,0,Unknown Condition,General Health Checkup,Consult a Doctor,Seek Medical Attention
+1,0,1,1,1,1,1,0,1,0,0,0,1,0,1,1,1,1,0,0,Flu,"Rapid Flu Test, Blood Test","Tamiflu, Acetaminophen","Rest, Stay Hydrated, Take Fever Reducers"
+0,0,1,1,1,0,1,0,0,0,1,0,0,1,0,0,1,1,0,1,Unknown Condition,General Health Checkup,Consult a Doctor,Seek Medical Attention
+1,0,0,0,1,1,0,0,1,0,1,0,0,1,1,1,0,1,0,0,Malaria,"Blood Smear, RDT Test","Chloroquine, Artemisinin","Use Mosquito Nets, Stay Hydrated, Complete Medication Course"
+1,0,1,1,1,1,1,1,1,0,1,0,0,0,0,1,0,0,1,1,Flu,"Rapid Flu Test, Blood Test","Tamiflu, Acetaminophen","Rest, Stay Hydrated, Take Fever Reducers"
+0,0,0,0,0,0,0,0,1,1,1,1,1,1,0,1,0,0,0,0,Unknown Condition,General Health Checkup,Consult a Doctor,Seek Medical Attention
+0,0,1,0,0,0,0,1,0,1,1,0,1,0,0,0,0,1,0,1,Unknown Condition,General Health Checkup,Consult a Doctor,Seek Medical Attention
+0,1,1,1,0,1,0,0,1,0,0,0,1,0,1,0,0,1,0,1,Tuberculosis,"TB Skin Test, Chest X-ray","Isoniazid, Rifampin","Take Full Course of Medications, Avoid Public Places"
+1,1,0,0,0,0,0,1,1,1,1,0,0,0,1,1,1,0,0,0,Unknown Condition,General Health Checkup,Consult a Doctor,Seek Medical Attention
+1,0,1,0,1,1,1,1,0,1,1,0,0,0,0,0,1,0,1,0,Unknown Condition,General Health Checkup,Consult a Doctor,Seek Medical Attention
+1,1,1,1,1,1,1,1,0,0,1,0,1,0,1,0,0,1,0,0,Pneumonia,"Chest X-ray, Sputum Test","Antibiotics, Cough Syrup","Rest, Drink Warm Fluids, Take Prescribed Antibiotics"
+0,1,0,0,1,1,1,0,1,0,0,1,1,0,1,0,0,0,0,0,Unknown Condition,General Health Checkup,Consult a Doctor,Seek Medical Attention
+0,0,0,0,0,1,0,0,1,1,0,1,1,0,1,0,1,0,1,0,Unknown Condition,General Health Checkup,Consult a Doctor,Seek Medical Attention
+1,1,0,1,1,1,1,0,0,1,1,1,0,0,0,0,1,0,1,1,Pneumonia,"Chest X-ray, Sputum Test","Antibiotics, Cough Syrup","Rest, Drink Warm Fluids, Take Prescribed Antibiotics"
+0,1,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,1,0,Unknown Condition,General Health Checkup,Consult a Doctor,Seek Medical Attention
+1,0,1,0,0,0,1,0,1,0,0,0,1,1,1,1,1,0,0,1,Flu,"Rapid Flu Test, Blood Test","Tamiflu, Acetaminophen","Rest, Stay Hydrated, Take Fever Reducers"
+1,0,0,1,0,1,0,1,0,0,0,0,1,0,0,0,0,0,0,0,Unknown Condition,General Health Checkup,Consult a Doctor,Seek Medical Attention
+1,1,1,0,1,0,0,1,1,0,0,0,1,0,0,1,1,1,0,0,Pneumonia,"Chest X-ray, Sputum Test","Antibiotics, Cough Syrup","Rest, Drink Warm Fluids, Take Prescribed Antibiotics"
+1,1,0,0,0,1,1,0,1,0,1,0,0,1,0,0,0,0,0,1,Unknown Condition,General Health Checkup,Consult a Doctor,Seek Medical Attention
+1,1,1,0,1,0,0,1,1,1,0,0,0,0,1,1,0,0,1,1,Pneumonia,"Chest X-ray, Sputum Test","Antibiotics, Cough Syrup","Rest, Drink Warm Fluids, Take Prescribed Antibiotics"
+0,0,0,1,1,1,1,0,1,1,0,0,0,0,1,0,0,1,0,1,Unknown Condition,General Health Checkup,Consult a Doctor,Seek Medical Attention
+1,0,0,0,0,1,0,1,0,0,1,0,1,0,1,0,0,0,0,0,Unknown Condition,General Health Checkup,Consult a Doctor,Seek Medical Attention
+0,1,0,1,0,0,0,0,0,0,1,1,1,1,0,0,1,1,0,1,Unknown Condition,General Health Checkup,Consult a Doctor,Seek Medical Attention
+0,1,0,0,1,0,1,1,1,0,1,1,0,0,1,1,1,0,0,0,Unknown Condition,General Health Checkup,Consult a Doctor,Seek Medical Attention
+1,0,0,0,1,1,1,1,0,1,0,0,1,1,0,1,1,0,0,1,Unknown Condition,General Health Checkup,Consult a Doctor,Seek Medical Attention
+1,0,0,0,1,0,0,1,0,0,0,0,0,1,0,1,1,0,1,0,Unknown Condition,General Health Checkup,Consult a Doctor,Seek Medical Attention
+1,0,0,1,1,1,1,1,1,0,1,0,0,1,1,1,0,1,1,0,Migraine,"MRI, CT Scan","Ibuprofen, Sumatriptan","Avoid Bright Lights, Maintain Sleep Schedule, Take Pain Relievers"
+0,1,0,0,1,1,1,0,0,0,1,1,0,0,0,1,1,1,1,1,Food Poisoning,"Stool Test, Blood Test","Oral Rehydration Salts, Anti-Nausea Pills","Stay Hydrated, Avoid Solid Foods, Rest Well"
+0,1,0,1,1,1,1,1,0,1,0,0,0,1,1,0,0,1,0,0,Unknown Condition,General Health Checkup,Consult a Doctor,Seek Medical Attention
+0,0,0,1,1,1,0,0,1,1,1,1,0,1,0,0,1,1,0,0,Food Poisoning,"Stool Test, Blood Test","Oral Rehydration Salts, Anti-Nausea Pills","Stay Hydrated, Avoid Solid Foods, Rest Well"
+1,1,0,0,0,1,1,1,0,0,0,1,1,1,1,1,0,1,0,1,Heart Attack,General Health Checkup,Consult a Doctor,Seek Medical Attention
+1,1,0,1,0,1,0,0,0,0,0,1,0,0,1,1,0,1,0,0,Unknown Condition,General Health Checkup,Consult a Doctor,Seek Medical Attention
+1,0,1,1,1,1,1,1,0,0,1,0,0,1,1,0,1,0,1,0,Malaria,"Blood Smear, RDT Test","Chloroquine, Artemisinin","Use Mosquito Nets, Stay Hydrated, Complete Medication Course"
+1,0,1,1,0,0,1,1,0,0,1,1,1,1,1,1,0,0,1,1,Migraine,"MRI, CT Scan","Ibuprofen, Sumatriptan","Avoid Bright Lights, Maintain Sleep Schedule, Take Pain Relievers"
+0,0,1,0,0,0,0,1,0,1,0,0,0,1,0,0,1,1,1,0,Unknown Condition,General Health Checkup,Consult a Doctor,Seek Medical Attention
+1,0,1,1,1,0,0,1,1,0,1,1,1,1,1,0,1,0,1,1,Flu,"Rapid Flu Test, Blood Test","Tamiflu, Acetaminophen","Rest, Stay Hydrated, Take Fever Reducers"
+1,1,1,0,1,0,0,0,0,0,0,1,1,0,0,1,0,0,0,1,Pneumonia,"Chest X-ray, Sputum Test","Antibiotics, Cough Syrup","Rest, Drink Warm Fluids, Take Prescribed Antibiotics"
+0,0,1,0,1,0,0,0,1,0,1,0,0,0,0,1,1,0,1,0,Unknown Condition,General Health Checkup,Consult a Doctor,Seek Medical Attention
+0,1,0,1,1,0,1,1,0,1,0,0,0,0,0,1,0,1,1,0,Migraine,"MRI, CT Scan","Ibuprofen, Sumatriptan","Avoid Bright Lights, Maintain Sleep Schedule, Take Pain Relievers"
+1,1,0,0,0,0,1,1,1,1,1,0,0,0,1,0,1,0,1,1,Unknown Condition,General Health Checkup,Consult a Doctor,Seek Medical Attention
+1,1,0,0,0,0,1,1,1,0,1,1,0,0,0,0,0,1,0,0,Unknown Condition,General Health Checkup,Consult a Doctor,Seek Medical Attention
+1,0,1,0,1,1,0,0,0,1,0,1,1,0,0,1,1,1,0,0,Dengue,General Health Checkup,Consult a Doctor,Seek Medical Attention
+1,1,0,1,1,0,1,1,0,1,0,0,0,1,1,0,0,1,1,0,Pneumonia,"Chest X-ray, Sputum Test","Antibiotics, Cough Syrup","Rest, Drink Warm Fluids, Take Prescribed Antibiotics"
+0,1,0,1,0,0,1,0,0,0,0,0,1,0,0,1,1,1,1,0,Migraine,"MRI, CT Scan","Ibuprofen, Sumatriptan","Avoid Bright Lights, Maintain Sleep Schedule, Take Pain Relievers"
+1,0,0,0,0,1,1,1,1,1,0,1,1,1,1,0,1,0,0,0,Malaria,"Blood Smear, RDT Test","Chloroquine, Artemisinin","Use Mosquito Nets, Stay Hydrated, Complete Medication Course"
+1,1,1,0,1,1,1,0,0,1,1,1,0,1,1,1,0,1,0,0,Pneumonia,"Chest X-ray, Sputum Test","Antibiotics, Cough Syrup","Rest, Drink Warm Fluids, Take Prescribed Antibiotics"
+0,1,0,0,0,1,0,0,0,0,0,1,1,1,1,1,1,1,0,1,Heart Attack,General Health Checkup,Consult a Doctor,Seek Medical Attention
+0,0,0,1,0,1,0,0,1,0,1,0,0,0,0,1,1,0,1,1,Migraine,"MRI, CT Scan","Ibuprofen, Sumatriptan","Avoid Bright Lights, Maintain Sleep Schedule, Take Pain Relievers"
+1,1,0,1,0,1,0,1,0,0,1,1,0,1,0,1,0,0,0,1,Food Poisoning,"Stool Test, Blood Test","Oral Rehydration Salts, Anti-Nausea Pills","Stay Hydrated, Avoid Solid Foods, Rest Well"
+0,1,1,0,1,0,1,0,0,0,1,1,0,0,1,0,0,0,0,0,Unknown Condition,General Health Checkup,Consult a Doctor,Seek Medical Attention
+0,0,0,1,0,1,0,1,1,0,1,0,0,0,0,0,1,1,0,1,Unknown Condition,General Health Checkup,Consult a Doctor,Seek Medical Attention
+1,0,0,1,0,0,1,1,0,1,0,0,1,0,0,0,0,1,1,1,Unknown Condition,General Health Checkup,Consult a Doctor,Seek Medical Attention
+0,0,1,0,1,0,1,1,1,1,0,1,0,0,1,0,0,1,0,0,Unknown Condition,General Health Checkup,Consult a Doctor,Seek Medical Attention
+0,1,1,1,0,0,1,0,1,1,1,1,1,0,1,0,1,0,0,0,Bronchitis,"Chest X-ray, Pulmonary Test","Cough Syrup, Bronchodilators","Avoid Smoke, Stay Hydrated, Rest"
+1,1,1,0,0,0,0,1,0,1,0,1,0,0,1,1,0,0,0,1,Tuberculosis,"TB Skin Test, Chest X-ray","Isoniazid, Rifampin","Take Full Course of Medications, Avoid Public Places"
+1,1,1,1,0,1,1,1,0,0,0,1,1,1,0,1,0,1,0,0,Bronchitis,"Chest X-ray, Pulmonary Test","Cough Syrup, Bronchodilators","Avoid Smoke, Stay Hydrated, Rest"
+0,0,1,0,0,0,1,0,1,1,1,1,1,1,0,0,1,0,0,1,Unknown Condition,General Health Checkup,Consult a Doctor,Seek Medical Attention
+0,1,1,0,0,0,0,1,1,1,0,1,1,0,1,1,0,1,0,0,Heart Attack,General Health Checkup,Consult a Doctor,Seek Medical Attention
+0,0,0,0,0,0,1,0,1,1,0,1,0,1,0,1,1,1,1,1,Unknown Condition,General Health Checkup,Consult a Doctor,Seek Medical Attention
+0,0,1,1,0,0,0,0,0,1,0,0,0,1,1,0,1,0,0,1,Unknown Condition,General Health Checkup,Consult a Doctor,Seek Medical Attention
+0,0,1,1,0,1,1,1,1,0,0,0,1,0,1,1,1,1,1,0,Migraine,"MRI, CT Scan","Ibuprofen, Sumatriptan","Avoid Bright Lights, Maintain Sleep Schedule, Take Pain Relievers"
+1,1,1,0,1,0,1,1,1,0,1,0,1,1,1,0,0,1,1,0,Pneumonia,"Chest X-ray, Sputum Test","Antibiotics, Cough Syrup","Rest, Drink Warm Fluids, Take Prescribed Antibiotics"
+1,1,0,0,1,1,0,1,0,1,1,1,1,0,1,0,1,0,0,1,Pneumonia,"Chest X-ray, Sputum Test","Antibiotics, Cough Syrup","Rest, Drink Warm Fluids, Take Prescribed Antibiotics"
+0,1,0,0,1,1,1,0,0,0,1,1,0,1,0,0,0,1,1,0,Food Poisoning,"Stool Test, Blood Test","Oral Rehydration Salts, Anti-Nausea Pills","Stay Hydrated, Avoid Solid Foods, Rest Well"
+0,1,0,0,0,0,0,1,0,0,1,0,0,0,1,1,0,0,1,0,Unknown Condition,General Health Checkup,Consult a Doctor,Seek Medical Attention
+0,1,0,1,1,1,0,0,1,1,1,0,1,1,1,1,0,1,0,1,Heart Attack,General Health Checkup,Consult a Doctor,Seek Medical Attention
+1,1,1,0,1,1,0,0,0,0,0,1,0,1,0,0,1,0,0,1,Pneumonia,"Chest X-ray, Sputum Test","Antibiotics, Cough Syrup","Rest, Drink Warm Fluids, Take Prescribed Antibiotics"
+0,1,0,1,0,0,0,0,1,0,1,0,1,0,1,0,1,1,1,0,Unknown Condition,General Health Checkup,Consult a Doctor,Seek Medical Attention
+0,0,0,0,0,0,0,1,0,1,1,1,1,0,0,1,1,0,0,1,Unknown Condition,General Health Checkup,Consult a Doctor,Seek Medical Attention
+0,1,1,0,0,0,1,1,0,1,1,0,0,1,0,1,0,1,1,1,Tuberculosis,"TB Skin Test, Chest X-ray","Isoniazid, Rifampin","Take Full Course of Medications, Avoid Public Places"
+0,1,0,0,1,0,0,0,0,0,1,0,0,1,0,0,1,0,1,1,Unknown Condition,General Health Checkup,Consult a Doctor,Seek Medical Attention
+0,1,0,1,0,1,1,0,1,1,0,0,0,0,1,1,1,1,1,0,Migraine,"MRI, CT Scan","Ibuprofen, Sumatriptan","Avoid Bright Lights, Maintain Sleep Schedule, Take Pain Relievers"
+0,1,0,0,1,1,0,1,1,1,0,0,1,1,1,1,1,0,0,0,Heart Attack,General Health Checkup,Consult a Doctor,Seek Medical Attention
+0,1,0,1,0,1,0,0,1,0,0,1,1,0,1,0,0,0,1,1,Unknown Condition,General Health Checkup,Consult a Doctor,Seek Medical Attention
+1,1,1,1,1,1,1,0,0,1,1,0,0,1,0,1,1,1,1,0,Pneumonia,"Chest X-ray, Sputum Test","Antibiotics, Cough Syrup","Rest, Drink Warm Fluids, Take Prescribed Antibiotics"
+0,1,0,0,1,1,1,1,1,0,0,0,0,1,1,1,1,0,1,1,Unknown Condition,General Health Checkup,Consult a Doctor,Seek Medical Attention
+0,1,0,1,1,0,1,1,0,0,1,0,0,1,0,0,0,1,1,1,Unknown Condition,General Health Checkup,Consult a Doctor,Seek Medical Attention
+1,1,0,0,1,1,0,1,0,0,0,0,1,0,0,1,0,1,1,0,Pneumonia,"Chest X-ray, Sputum Test","Antibiotics, Cough Syrup","Rest, Drink Warm Fluids, Take Prescribed Antibiotics"
+0,0,1,0,0,0,0,0,1,1,0,0,0,1,0,1,1,0,0,0,Unknown Condition,General Health Checkup,Consult a Doctor,Seek Medical Attention
+0,0,1,0,1,1,0,1,0,1,0,1,1,1,0,0,1,1,1,1,Unknown Condition,General Health Checkup,Consult a Doctor,Seek Medical Attention
+1,0,0,0,0,1,1,0,1,1,1,1,1,1,1,1,0,0,1,1,Food Poisoning,"Stool Test, Blood Test","Oral Rehydration Salts, Anti-Nausea Pills","Stay Hydrated, Avoid Solid Foods, Rest Well"
+0,0,0,0,0,0,0,0,1,0,0,1,0,0,1,0,1,0,0,1,Unknown Condition,General Health Checkup,Consult a Doctor,Seek Medical Attention
+1,0,1,1,0,0,0,0,1,0,1,1,0,0,1,0,0,1,0,1,Flu,"Rapid Flu Test, Blood Test","Tamiflu, Acetaminophen","Rest, Stay Hydrated, Take Fever Reducers"
+0,0,0,0,1,0,0,0,1,1,1,1,0,1,0,0,0,1,0,1,Unknown Condition,General Health Checkup,Consult a Doctor,Seek Medical Attention
+1,0,0,1,0,0,0,0,1,1,0,0,1,0,0,1,0,0,0,0,Unknown Condition,General Health Checkup,Consult a Doctor,Seek Medical Attention
+0,0,0,0,0,0,0,1,1,0,0,0,1,0,0,0,0,1,1,1,Unknown Condition,General Health Checkup,Consult a Doctor,Seek Medical Attention
+1,0,1,1,1,0,1,1,0,0,0,0,0,1,1,1,1,1,1,0,Migraine,"MRI, CT Scan","Ibuprofen, Sumatriptan","Avoid Bright Lights, Maintain Sleep Schedule, Take Pain Relievers"
+0,1,0,0,1,0,0,0,1,1,1,1,1,0,0,0,1,1,0,1,Unknown Condition,General Health Checkup,Consult a Doctor,Seek Medical Attention
+0,0,1,1,1,0,1,0,0,1,0,0,1,0,0,0,1,1,1,0,Unknown Condition,General Health Checkup,Consult a Doctor,Seek Medical Attention
+0,0,1,1,1,0,0,0,0,0,0,1,1,1,1,1,0,1,1,1,Migraine,"MRI, CT Scan","Ibuprofen, Sumatriptan","Avoid Bright Lights, Maintain Sleep Schedule, Take Pain Relievers"
+1,1,1,1,1,0,1,1,0,0,1,0,1,1,1,0,0,1,1,0,Pneumonia,"Chest X-ray, Sputum Test","Antibiotics, Cough Syrup","Rest, Drink Warm Fluids, Take Prescribed Antibiotics"
+0,1,0,1,0,0,1,0,0,1,1,1,0,1,1,1,0,1,0,0,Unknown Condition,General Health Checkup,Consult a Doctor,Seek Medical Attention
+1,1,1,1,0,0,0,1,0,1,0,0,0,0,0,0,1,0,1,0,Unknown Condition,General Health Checkup,Consult a Doctor,Seek Medical Attention
+0,0,0,1,1,0,1,0,1,1,1,0,1,1,0,0,1,1,0,0,Unknown Condition,General Health Checkup,Consult a Doctor,Seek Medical Attention
+0,0,0,1,1,0,0,1,0,1,0,1,1,0,0,1,1,0,0,0,Unknown Condition,General Health Checkup,Consult a Doctor,Seek Medical Attention
+0,0,1,1,1,1,1,1,1,0,1,1,0,0,1,0,1,0,1,0,Food Poisoning,"Stool Test, Blood Test","Oral Rehydration Salts, Anti-Nausea Pills","Stay Hydrated, Avoid Solid Foods, Rest Well"
+1,0,0,0,1,0,1,0,0,1,0,1,1,0,0,1,1,1,0,0,Dengue,General Health Checkup,Consult a Doctor,Seek Medical Attention
+1,0,0,0,0,0,1,1,1,1,1,0,1,0,0,0,0,0,0,0,Unknown Condition,General Health Checkup,Consult a Doctor,Seek Medical Attention
+1,0,1,1,0,1,1,1,1,0,0,1,0,0,0,0,0,1,1,0,Flu,"Rapid Flu Test, Blood Test","Tamiflu, Acetaminophen","Rest, Stay Hydrated, Take Fever Reducers"
+1,1,0,0,0,1,1,1,0,0,0,1,0,1,1,1,0,0,0,1,Malaria,"Blood Smear, RDT Test","Chloroquine, Artemisinin","Use Mosquito Nets, Stay Hydrated, Complete Medication Course"
+0,1,1,1,0,0,1,1,1,1,1,0,1,0,0,0,1,0,1,1,Tuberculosis,"TB Skin Test, Chest X-ray","Isoniazid, Rifampin","Take Full Course of Medications, Avoid Public Places"
+0,1,0,1,0,0,1,0,1,1,1,0,0,0,1,1,1,1,0,0,Unknown Condition,General Health Checkup,Consult a Doctor,Seek Medical Attention
+1,1,0,1,1,0,0,0,0,0,1,0,0,1,0,1,1,1,0,1,Pneumonia,"Chest X-ray, Sputum Test","Antibiotics, Cough Syrup","Rest, Drink Warm Fluids, Take Prescribed Antibiotics"
+0,1,0,1,1,1,0,0,1,1,0,1,1,1,1,1,0,0,0,1,Heart Attack,General Health Checkup,Consult a Doctor,Seek Medical Attention
+1,1,1,1,1,0,1,1,0,1,1,1,1,1,1,1,0,1,0,1,Pneumonia,"Chest X-ray, Sputum Test","Antibiotics, Cough Syrup","Rest, Drink Warm Fluids, Take Prescribed Antibiotics"
+1,1,0,0,0,0,0,0,0,0,0,1,1,1,1,0,0,1,0,1,Malaria,"Blood Smear, RDT Test","Chloroquine, Artemisinin","Use Mosquito Nets, Stay Hydrated, Complete Medication Course"
+1,0,1,1,1,0,1,1,0,1,0,1,1,0,0,0,0,1,1,1,Unknown Condition,General Health Checkup,Consult a Doctor,Seek Medical Attention
+1,0,1,1,1,0,1,1,0,0,0,1,0,0,1,1,1,1,0,0,Dengue,General Health Checkup,Consult a Doctor,Seek Medical Attention
+1,0,0,0,0,1,1,1,1,1,0,0,1,1,0,0,1,0,0,0,Unknown Condition,General Health Checkup,Consult a Doctor,Seek Medical Attention
+1,1,1,1,0,0,1,1,0,0,0,0,1,1,0,1,0,1,0,1,Tuberculosis,"TB Skin Test, Chest X-ray","Isoniazid, Rifampin","Take Full Course of Medications, Avoid Public Places"
+0,0,0,1,1,1,1,1,0,1,1,0,0,0,1,1,1,1,0,1,Unknown Condition,General Health Checkup,Consult a Doctor,Seek Medical Attention
+1,1,1,1,0,0,0,0,0,1,0,1,1,0,1,1,1,0,0,0,Heart Attack,General Health Checkup,Consult a Doctor,Seek Medical Attention
+0,1,0,1,0,0,0,1,0,1,0,1,0,0,0,0,0,1,0,0,Unknown Condition,General Health Checkup,Consult a Doctor,Seek Medical Attention
+1,1,0,1,0,1,0,1,0,1,0,0,1,1,0,1,1,0,1,1,Migraine,"MRI, CT Scan","Ibuprofen, Sumatriptan","Avoid Bright Lights, Maintain Sleep Schedule, Take Pain Relievers"
+1,0,1,0,0,1,1,1,0,0,1,0,1,0,0,1,0,1,1,0,Unknown Condition,General Health Checkup,Consult a Doctor,Seek Medical Attention
+0,1,1,0,1,0,1,1,1,1,0,0,0,0,0,1,1,1,1,1,Tuberculosis,"TB Skin Test, Chest X-ray","Isoniazid, Rifampin","Take Full Course of Medications, Avoid Public Places"
+1,1,1,1,1,0,1,0,0,0,1,1,0,0,1,1,1,0,0,0,Pneumonia,"Chest X-ray, Sputum Test","Antibiotics, Cough Syrup","Rest, Drink Warm Fluids, Take Prescribed Antibiotics"
+0,1,0,0,0,1,1,0,1,0,1,1,1,0,1,1,1,0,1,1,Food Poisoning,"Stool Test, Blood Test","Oral Rehydration Salts, Anti-Nausea Pills","Stay Hydrated, Avoid Solid Foods, Rest Well"
+1,0,0,0,1,1,0,1,1,0,1,1,0,1,0,1,1,1,1,1,Food Poisoning,"Stool Test, Blood Test","Oral Rehydration Salts, Anti-Nausea Pills","Stay Hydrated, Avoid Solid Foods, Rest Well"
+0,1,1,1,0,0,0,1,0,0,0,0,1,1,0,1,0,0,0,1,Tuberculosis,"TB Skin Test, Chest X-ray","Isoniazid, Rifampin","Take Full Course of Medications, Avoid Public Places"
+1,1,1,0,1,0,1,1,1,1,0,0,0,0,1,0,0,0,1,1,Pneumonia,"Chest X-ray, Sputum Test","Antibiotics, Cough Syrup","Rest, Drink Warm Fluids, Take Prescribed Antibiotics"
+0,1,0,0,1,0,1,1,1,1,1,1,1,0,0,1,0,0,1,0,Unknown Condition,General Health Checkup,Consult a Doctor,Seek Medical Attention
+1,1,0,1,0,1,0,0,0,0,0,1,1,1,1,0,1,1,1,1,Dengue,General Health Checkup,Consult a Doctor,Seek Medical Attention
+0,1,0,0,0,1,0,1,0,0,0,0,1,1,1,1,1,0,0,0,Heart Attack,General Health Checkup,Consult a Doctor,Seek Medical Attention
+0,1,1,1,0,1,0,0,0,0,0,0,1,0,0,0,0,1,1,0,Bronchitis,"Chest X-ray, Pulmonary Test","Cough Syrup, Bronchodilators","Avoid Smoke, Stay Hydrated, Rest"
+0,0,0,1,1,0,0,1,0,1,0,1,1,1,1,1,1,1,1,0,Migraine,"MRI, CT Scan","Ibuprofen, Sumatriptan","Avoid Bright Lights, Maintain Sleep Schedule, Take Pain Relievers"
+1,1,0,0,1,0,0,1,1,1,1,1,1,1,0,0,0,0,0,0,Pneumonia,"Chest X-ray, Sputum Test","Antibiotics, Cough Syrup","Rest, Drink Warm Fluids, Take Prescribed Antibiotics"
+1,0,0,1,0,1,1,0,0,0,0,1,1,0,1,0,0,1,1,1,Unknown Condition,General Health Checkup,Consult a Doctor,Seek Medical Attention
+1,1,0,0,1,0,0,1,1,0,0,1,1,1,1,1,1,1,1,0,Pneumonia,"Chest X-ray, Sputum Test","Antibiotics, Cough Syrup","Rest, Drink Warm Fluids, Take Prescribed Antibiotics"
+0,0,1,1,0,1,1,0,0,1,1,0,0,0,1,0,1,0,1,0,Unknown Condition,General Health Checkup,Consult a Doctor,Seek Medical Attention
+1,1,0,1,1,1,0,0,1,1,0,0,0,0,1,1,0,0,0,1,Pneumonia,"Chest X-ray, Sputum Test","Antibiotics, Cough Syrup","Rest, Drink Warm Fluids, Take Prescribed Antibiotics"
+0,1,0,1,1,0,1,1,1,1,1,0,0,1,1,1,1,0,0,1,Unknown Condition,General Health Checkup,Consult a Doctor,Seek Medical Attention
+0,0,1,0,1,0,1,1,1,0,0,0,0,0,0,0,1,1,0,0,Unknown Condition,General Health Checkup,Consult a Doctor,Seek Medical Attention
+1,0,0,1,0,0,1,0,1,1,0,0,1,0,1,0,0,1,1,0,Unknown Condition,General Health Checkup,Consult a Doctor,Seek Medical Attention
+1,1,0,0,0,0,1,0,0,1,1,1,1,1,0,0,0,0,0,0,Unknown Condition,General Health Checkup,Consult a Doctor,Seek Medical Attention
+0,1,0,1,1,0,0,1,0,0,1,0,0,1,1,1,0,1,1,1,Migraine,"MRI, CT Scan","Ibuprofen, Sumatriptan","Avoid Bright Lights, Maintain Sleep Schedule, Take Pain Relievers"
+0,0,1,0,0,1,0,0,0,1,0,0,1,1,1,0,0,1,0,1,Unknown Condition,General Health Checkup,Consult a Doctor,Seek Medical Attention
+1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,1,0,Unknown Condition,General Health Checkup,Consult a Doctor,Seek Medical Attention
+1,1,0,1,1,1,1,1,0,0,1,1,0,0,1,0,0,1,1,1,Pneumonia,"Chest X-ray, Sputum Test","Antibiotics, Cough Syrup","Rest, Drink Warm Fluids, Take Prescribed Antibiotics"
+0,1,0,0,1,1,0,0,0,1,1,0,0,0,1,0,0,1,1,0,Unknown Condition,General Health Checkup,Consult a Doctor,Seek Medical Attention
+1,1,0,0,0,1,0,0,1,1,0,1,1,0,1,0,1,0,1,1,Unknown Condition,General Health Checkup,Consult a Doctor,Seek Medical Attention
+0,0,1,1,1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1,Unknown Condition,General Health Checkup,Consult a Doctor,Seek Medical Attention
+1,1,1,1,1,1,1,0,0,0,1,0,1,0,1,0,0,0,1,0,Pneumonia,"Chest X-ray, Sputum Test","Antibiotics, Cough Syrup","Rest, Drink Warm Fluids, Take Prescribed Antibiotics"
+1,1,1,0,0,1,0,0,0,1,0,0,0,1,1,1,1,1,1,0,Dengue,General Health Checkup,Consult a Doctor,Seek Medical Attention
+1,0,0,1,1,0,0,0,1,1,1,0,1,0,1,0,0,1,0,1,Unknown Condition,General Health Checkup,Consult a Doctor,Seek Medical Attention
+1,0,0,1,1,0,0,0,0,1,0,0,1,0,0,0,1,1,0,1,Dengue,General Health Checkup,Consult a Doctor,Seek Medical Attention
+1,1,1,0,0,1,0,0,0,0,1,1,1,0,1,1,0,1,0,0,Food Poisoning,"Stool Test, Blood Test","Oral Rehydration Salts, Anti-Nausea Pills","Stay Hydrated, Avoid Solid Foods, Rest Well"
+0,1,1,1,0,0,1,0,0,1,1,1,0,0,1,0,1,0,1,1,Tuberculosis,"TB Skin Test, Chest X-ray","Isoniazid, Rifampin","Take Full Course of Medications, Avoid Public Places"
+0,0,0,1,0,1,0,1,0,1,1,1,0,1,1,0,0,1,0,1,Food Poisoning,"Stool Test, Blood Test","Oral Rehydration Salts, Anti-Nausea Pills","Stay Hydrated, Avoid Solid Foods, Rest Well"
+1,1,0,0,0,1,0,1,0,1,1,0,1,0,1,0,1,0,0,0,Unknown Condition,General Health Checkup,Consult a Doctor,Seek Medical Attention
+1,1,0,0,0,0,1,0,0,0,0,1,0,1,0,1,0,1,1,1,Unknown Condition,General Health Checkup,Consult a Doctor,Seek Medical Attention
+0,0,1,1,0,1,1,0,0,1,0,0,0,1,0,1,1,0,1,0,Migraine,"MRI, CT Scan","Ibuprofen, Sumatriptan","Avoid Bright Lights, Maintain Sleep Schedule, Take Pain Relievers"
+0,0,1,1,1,1,0,0,1,0,0,0,0,1,0,1,0,0,1,0,Migraine,"MRI, CT Scan","Ibuprofen, Sumatriptan","Avoid Bright Lights, Maintain Sleep Schedule, Take Pain Relievers"
+0,0,0,1,0,0,1,0,1,1,1,1,0,0,1,1,1,1,1,0,Migraine,"MRI, CT Scan","Ibuprofen, Sumatriptan","Avoid Bright Lights, Maintain Sleep Schedule, Take Pain Relievers"
+1,0,0,0,1,0,1,0,0,0,1,0,0,0,0,1,0,0,1,1,Unknown Condition,General Health Checkup,Consult a Doctor,Seek Medical Attention
+0,1,1,0,0,0,0,1,1,0,1,1,1,1,0,0,0,0,1,1,Tuberculosis,"TB Skin Test, Chest X-ray","Isoniazid, Rifampin","Take Full Course of Medications, Avoid Public Places"
+1,1,0,1,1,1,1,1,0,1,1,1,0,1,0,0,0,0,1,0,Pneumonia,"Chest X-ray, Sputum Test","Antibiotics, Cough Syrup","Rest, Drink Warm Fluids, Take Prescribed Antibiotics"
+1,1,1,1,0,1,0,0,0,0,1,0,1,0,1,0,1,0,1,1,Tuberculosis,"TB Skin Test, Chest X-ray","Isoniazid, Rifampin","Take Full Course of Medications, Avoid Public Places"
+0,0,0,1,0,1,0,0,0,1,0,1,0,1,1,0,1,0,1,1,Unknown Condition,General Health Checkup,Consult a Doctor,Seek Medical Attention
+1,1,0,0,0,1,0,1,1,1,1,0,1,1,0,0,1,0,0,0,Unknown Condition,General Health Checkup,Consult a Doctor,Seek Medical Attention
+0,1,1,0,1,0,1,1,1,0,0,1,0,0,0,0,0,1,1,1,Tuberculosis,"TB Skin Test, Chest X-ray","Isoniazid, Rifampin","Take Full Course of Medications, Avoid Public Places"
+1,0,0,1,0,0,1,1,1,1,0,0,0,1,0,0,1,1,1,1,Dengue,General Health Checkup,Consult a Doctor,Seek Medical Attention
+0,1,1,1,0,1,1,1,1,0,0,1,0,0,1,0,0,1,1,0,Unknown Condition,General Health Checkup,Consult a Doctor,Seek Medical Attention
+1,1,1,0,1,0,1,1,1,1,0,0,0,1,1,0,1,1,1,0,Pneumonia,"Chest X-ray, Sputum Test","Antibiotics, Cough Syrup","Rest, Drink Warm Fluids, Take Prescribed Antibiotics"
+1,0,0,0,1,0,0,1,1,0,1,0,1,1,1,0,1,1,0,1,Dengue,General Health Checkup,Consult a Doctor,Seek Medical Attention
+0,1,0,1,0,1,1,0,0,0,0,0,1,0,0,1,1,0,1,0,Migraine,"MRI, CT Scan","Ibuprofen, Sumatriptan","Avoid Bright Lights, Maintain Sleep Schedule, Take Pain Relievers"
+0,1,1,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,0,1,Tuberculosis,"TB Skin Test, Chest X-ray","Isoniazid, Rifampin","Take Full Course of Medications, Avoid Public Places"
+1,1,0,1,1,1,1,0,0,0,0,1,0,0,0,1,0,0,1,1,Pneumonia,"Chest X-ray, Sputum Test","Antibiotics, Cough Syrup","Rest, Drink Warm Fluids, Take Prescribed Antibiotics"
+0,0,0,0,1,1,0,1,1,1,0,0,1,0,0,1,1,0,1,1,Unknown Condition,General Health Checkup,Consult a Doctor,Seek Medical Attention
+0,1,0,0,0,0,1,1,0,0,1,1,0,1,0,0,1,1,0,0,Unknown Condition,General Health Checkup,Consult a Doctor,Seek Medical Attention
+1,0,0,1,0,1,0,1,0,1,0,1,0,0,1,0,0,1,1,0,Unknown Condition,General Health Checkup,Consult a Doctor,Seek Medical Attention
+0,0,0,1,1,0,0,1,0,1,0,0,0,1,0,1,0,1,0,0,Unknown Condition,General Health Checkup,Consult a Doctor,Seek Medical Attention
+1,0,1,1,0,1,0,0,0,0,1,1,1,1,1,1,1,1,1,0,Food Poisoning,"Stool Test, Blood Test","Oral Rehydration Salts, Anti-Nausea Pills","Stay Hydrated, Avoid Solid Foods, Rest Well"
+0,1,1,1,0,0,1,1,0,1,1,0,1,0,1,1,1,0,1,1,Migraine,"MRI, CT Scan","Ibuprofen, Sumatriptan","Avoid Bright Lights, Maintain Sleep Schedule, Take Pain Relievers"
+1,1,0,0,1,0,1,1,1,1,1,0,1,1,1,0,0,0,0,0,Pneumonia,"Chest X-ray, Sputum Test","Antibiotics, Cough Syrup","Rest, Drink Warm Fluids, Take Prescribed Antibiotics"
+0,0,0,0,0,1,0,1,1,0,0,0,0,0,0,1,1,0,1,0,Unknown Condition,General Health Checkup,Consult a Doctor,Seek Medical Attention
+0,1,0,1,0,1,1,0,0,0,1,0,1,1,0,1,0,1,1,0,Migraine,"MRI, CT Scan","Ibuprofen, Sumatriptan","Avoid Bright Lights, Maintain Sleep Schedule, Take Pain Relievers"
+0,1,0,0,1,0,0,0,1,1,1,0,0,1,0,0,1,0,0,0,Unknown Condition,General Health Checkup,Consult a Doctor,Seek Medical Attention
+0,1,1,0,1,0,0,1,1,1,0,0,0,0,0,0,1,1,0,1,Tuberculosis,"TB Skin Test, Chest X-ray","Isoniazid, Rifampin","Take Full Course of Medications, Avoid Public Places"
+0,1,1,0,1,0,1,0,0,0,0,1,0,1,0,1,1,0,1,0,Unknown Condition,General Health Checkup,Consult a Doctor,Seek Medical Attention
+1,1,0,0,1,0,1,1,0,1,1,1,0,1,1,0,1,1,0,1,Pneumonia,"Chest X-ray, Sputum Test","Antibiotics, Cough Syrup","Rest, Drink Warm Fluids, Take Prescribed Antibiotics"
+1,1,1,1,0,1,0,0,1,0,0,0,0,0,0,1,0,1,0,1,Flu,"Rapid Flu Test, Blood Test","Tamiflu, Acetaminophen","Rest, Stay Hydrated, Take Fever Reducers"
+1,1,0,1,1,1,0,1,1,1,0,0,0,1,1,0,1,0,1,0,Pneumonia,"Chest X-ray, Sputum Test","Antibiotics, Cough Syrup","Rest, Drink Warm Fluids, Take Prescribed Antibiotics"
+1,1,1,1,0,1,0,0,1,0,1,1,1,1,1,1,1,1,0,0,Flu,"Rapid Flu Test, Blood Test","Tamiflu, Acetaminophen","Rest, Stay Hydrated, Take Fever Reducers"
+1,0,1,0,0,0,1,0,0,1,0,0,1,1,0,0,1,0,1,0,Unknown Condition,General Health Checkup,Consult a Doctor,Seek Medical Attention
+0,0,1,1,1,0,0,1,1,1,1,0,0,0,1,0,1,1,1,0,Unknown Condition,General Health Checkup,Consult a Doctor,Seek Medical Attention
+0,0,0,1,1,1,1,1,1,0,0,0,0,1,1,1,1,1,1,0,Migraine,"MRI, CT Scan","Ibuprofen, Sumatriptan","Avoid Bright Lights, Maintain Sleep Schedule, Take Pain Relievers"
+0,0,0,0,1,0,1,0,1,1,0,1,0,0,0,0,0,1,1,0,Unknown Condition,General Health Checkup,Consult a Doctor,Seek Medical Attention
+0,0,0,1,1,0,0,1,1,0,0,0,0,0,0,1,1,1,0,1,Unknown Condition,General Health Checkup,Consult a Doctor,Seek Medical Attention
+1,1,0,1,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,1,Unknown Condition,General Health Checkup,Consult a Doctor,Seek Medical Attention
+0,0,0,0,1,1,0,1,0,1,0,1,0,1,1,1,1,1,1,1,Unknown Condition,General Health Checkup,Consult a Doctor,Seek Medical Attention
+0,1,1,1,0,1,0,1,0,1,0,1,0,1,1,1,1,1,1,0,Migraine,"MRI, CT Scan","Ibuprofen, Sumatriptan","Avoid Bright Lights, Maintain Sleep Schedule, Take Pain Relievers"
+1,0,1,0,1,0,0,1,0,1,0,1,1,1,0,0,1,0,1,0,Unknown Condition,General Health Checkup,Consult a Doctor,Seek Medical Attention
+0,1,0,0,0,0,0,0,1,0,0,1,0,0,0,0,1,0,1,1,Unknown Condition,General Health Checkup,Consult a Doctor,Seek Medical Attention
+1,1,1,0,1,1,1,1,1,1,1,1,0,1,0,1,0,1,0,1,Pneumonia,"Chest X-ray, Sputum Test","Antibiotics, Cough Syrup","Rest, Drink Warm Fluids, Take Prescribed Antibiotics"
+0,1,0,1,0,0,1,0,0,1,0,1,1,1,1,1,0,1,0,0,Heart Attack,General Health Checkup,Consult a Doctor,Seek Medical Attention
+1,0,0,0,1,1,1,0,0,0,0,1,0,0,0,0,0,1,0,1,Unknown Condition,General Health Checkup,Consult a Doctor,Seek Medical Attention
+1,1,1,0,0,0,0,1,1,1,1,0,0,1,0,1,0,1,1,1,Flu,"Rapid Flu Test, Blood Test","Tamiflu, Acetaminophen","Rest, Stay Hydrated, Take Fever Reducers"
+0,0,1,0,1,0,0,1,0,1,0,0,0,1,1,1,1,0,1,0,Unknown Condition,General Health Checkup,Consult a Doctor,Seek Medical Attention
+0,1,0,1,1,1,0,1,1,0,1,1,0,1,0,1,1,0,1,1,Food Poisoning,"Stool Test, Blood Test","Oral Rehydration Salts, Anti-Nausea Pills","Stay Hydrated, Avoid Solid Foods, Rest Well"
+0,0,1,1,0,1,0,0,0,0,1,1,0,1,1,1,0,0,1,1,Food Poisoning,"Stool Test, Blood Test","Oral Rehydration Salts, Anti-Nausea Pills","Stay Hydrated, Avoid Solid Foods, Rest Well"
+0,0,1,0,1,0,1,0,1,1,0,0,1,0,1,1,1,1,0,0,Heart Attack,General Health Checkup,Consult a Doctor,Seek Medical Attention
+0,0,0,1,0,1,1,0,0,1,1,0,1,0,1,0,1,1,0,0,Unknown Condition,General Health Checkup,Consult a Doctor,Seek Medical Attention
+1,0,1,0,0,1,0,0,1,0,0,1,1,1,1,0,1,1,1,0,Flu,"Rapid Flu Test, Blood Test","Tamiflu, Acetaminophen","Rest, Stay Hydrated, Take Fever Reducers"
+1,1,1,1,1,1,0,0,0,0,0,1,0,1,1,0,1,0,1,0,Pneumonia,"Chest X-ray, Sputum Test","Antibiotics, Cough Syrup","Rest, Drink Warm Fluids, Take Prescribed Antibiotics"
+1,0,1,0,0,1,1,0,0,0,0,0,0,0,1,0,0,1,1,1,Unknown Condition,General Health Checkup,Consult a Doctor,Seek Medical Attention
+0,0,0,1,1,1,1,0,1,0,0,1,0,1,1,1,0,1,0,0,Unknown Condition,General Health Checkup,Consult a Doctor,Seek Medical Attention
+0,1,1,0,0,1,0,1,1,1,0,1,0,1,1,0,1,1,1,1,Tuberculosis,"TB Skin Test, Chest X-ray","Isoniazid, Rifampin","Take Full Course of Medications, Avoid Public Places"
+1,0,0,0,1,1,1,1,0,1,0,0,0,0,1,0,1,0,0,0,Unknown Condition,General Health Checkup,Consult a Doctor,Seek Medical Attention
+1,0,0,1,1,0,1,1,0,1,1,0,1,1,0,0,0,1,1,1,Unknown Condition,General Health Checkup,Consult a Doctor,Seek Medical Attention
+0,0,1,1,0,0,1,0,1,1,1,1,0,1,1,1,0,0,1,0,Migraine,"MRI, CT Scan","Ibuprofen, Sumatriptan","Avoid Bright Lights, Maintain Sleep Schedule, Take Pain Relievers"
+1,1,1,0,0,1,0,1,1,1,0,0,1,0,0,0,0,1,0,1,Flu,"Rapid Flu Test, Blood Test","Tamiflu, Acetaminophen","Rest, Stay Hydrated, Take Fever Reducers"
+0,0,0,1,0,0,0,0,1,1,0,0,1,1,0,0,0,0,1,1,Unknown Condition,General Health Checkup,Consult a Doctor,Seek Medical Attention
+1,0,0,1,1,1,0,1,1,1,0,0,0,0,1,1,0,0,0,1,Unknown Condition,General Health Checkup,Consult a Doctor,Seek Medical Attention
+1,0,1,0,1,0,0,0,1,1,0,1,1,0,1,1,0,0,1,0,Flu,"Rapid Flu Test, Blood Test","Tamiflu, Acetaminophen","Rest, Stay Hydrated, Take Fever Reducers"
+1,1,1,0,1,1,0,1,0,0,1,0,0,0,1,0,0,1,0,1,Pneumonia,"Chest X-ray, Sputum Test","Antibiotics, Cough Syrup","Rest, Drink Warm Fluids, Take Prescribed Antibiotics"
+1,1,0,1,1,1,1,0,1,0,1,1,1,1,0,1,0,0,0,0,Pneumonia,"Chest X-ray, Sputum Test","Antibiotics, Cough Syrup","Rest, Drink Warm Fluids, Take Prescribed Antibiotics"
+1,0,0,0,1,0,0,1,0,1,1,1,1,1,1,1,1,0,0,0,Heart Attack,General Health Checkup,Consult a Doctor,Seek Medical Attention
+0,1,0,0,0,1,0,1,0,1,0,1,1,0,1,0,0,1,1,0,Unknown Condition,General Health Checkup,Consult a Doctor,Seek Medical Attention
+1,1,0,0,1,0,1,1,1,0,0,0,0,1,1,1,0,0,0,0,Pneumonia,"Chest X-ray, Sputum Test","Antibiotics, Cough Syrup","Rest, Drink Warm Fluids, Take Prescribed Antibiotics"
+0,0,0,0,0,1,1,1,0,1,0,1,0,1,0,0,0,1,0,0,Unknown Condition,General Health Checkup,Consult a Doctor,Seek Medical Attention
+0,0,0,0,0,1,0,1,1,0,0,0,0,0,1,1,1,0,0,1,Unknown Condition,General Health Checkup,Consult a Doctor,Seek Medical Attention
+0,0,1,1,1,1,0,1,1,1,0,0,1,0,1,1,0,0,1,1,Migraine,"MRI, CT Scan","Ibuprofen, Sumatriptan","Avoid Bright Lights, Maintain Sleep Schedule, Take Pain Relievers"
+0,1,1,1,1,0,1,1,1,1,1,1,1,0,0,1,1,0,1,1,Migraine,"MRI, CT Scan","Ibuprofen, Sumatriptan","Avoid Bright Lights, Maintain Sleep Schedule, Take Pain Relievers"
+1,1,0,1,1,1,1,0,1,0,0,1,0,0,0,0,0,1,1,0,Pneumonia,"Chest X-ray, Sputum Test","Antibiotics, Cough Syrup","Rest, Drink Warm Fluids, Take Prescribed Antibiotics"
+1,0,1,1,1,0,0,0,1,1,0,1,0,0,0,0,1,0,1,1,Flu,"Rapid Flu Test, Blood Test","Tamiflu, Acetaminophen","Rest, Stay Hydrated, Take Fever Reducers"
+0,0,1,1,1,0,0,1,1,0,0,1,1,0,1,1,0,1,0,1,Heart Attack,General Health Checkup,Consult a Doctor,Seek Medical Attention
+0,1,1,1,1,1,0,1,1,1,1,0,1,0,0,0,1,1,1,1,Tuberculosis,"TB Skin Test, Chest X-ray","Isoniazid, Rifampin","Take Full Course of Medications, Avoid Public Places"
+1,1,0,0,1,1,0,1,1,0,1,1,0,0,0,0,0,1,0,1,Pneumonia,"Chest X-ray, Sputum Test","Antibiotics, Cough Syrup","Rest, Drink Warm Fluids, Take Prescribed Antibiotics"
+1,1,0,1,0,0,0,0,1,0,0,1,1,1,0,1,1,0,0,0,Unknown Condition,General Health Checkup,Consult a Doctor,Seek Medical Attention
+0,1,1,1,1,1,0,1,1,0,0,0,1,0,1,0,1,0,1,0,Bronchitis,"Chest X-ray, Pulmonary Test","Cough Syrup, Bronchodilators","Avoid Smoke, Stay Hydrated, Rest"
+1,0,1,1,1,0,0,0,0,0,1,0,0,1,0,0,1,0,0,1,Unknown Condition,General Health Checkup,Consult a Doctor,Seek Medical Attention
+0,0,1,0,0,0,0,1,0,1,1,1,0,1,1,1,0,0,1,0,Unknown Condition,General Health Checkup,Consult a Doctor,Seek Medical Attention
+0,1,0,0,0,1,0,0,1,0,0,0,0,1,0,1,1,1,0,1,Unknown Condition,General Health Checkup,Consult a Doctor,Seek Medical Attention
+0,0,1,1,1,0,0,0,0,1,0,1,1,0,0,0,1,0,0,1,Unknown Condition,General Health Checkup,Consult a Doctor,Seek Medical Attention
+1,1,1,1,0,0,0,0,1,1,0,0,0,1,0,1,1,1,0,0,Flu,"Rapid Flu Test, Blood Test","Tamiflu, Acetaminophen","Rest, Stay Hydrated, Take Fever Reducers"
+1,0,1,1,1,0,1,0,1,1,1,0,0,0,0,1,1,0,0,0,Flu,"Rapid Flu Test, Blood Test","Tamiflu, Acetaminophen","Rest, Stay Hydrated, Take Fever Reducers"
+1,0,1,1,0,0,1,0,0,1,0,1,1,1,0,0,1,1,1,0,Dengue,General Health Checkup,Consult a Doctor,Seek Medical Attention
+1,1,1,1,0,1,0,0,0,0,0,0,1,0,0,0,1,0,1,0,Bronchitis,"Chest X-ray, Pulmonary Test","Cough Syrup, Bronchodilators","Avoid Smoke, Stay Hydrated, Rest"
+0,0,1,0,1,0,1,0,0,0,0,0,1,1,1,0,1,0,0,1,Unknown Condition,General Health Checkup,Consult a Doctor,Seek Medical Attention
+0,1,1,0,0,0,0,0,1,0,1,0,0,1,0,1,1,1,1,0,Unknown Condition,General Health Checkup,Consult a Doctor,Seek Medical Attention
+1,1,1,0,0,0,0,1,0,1,0,0,0,1,1,0,0,1,1,0,Malaria,"Blood Smear, RDT Test","Chloroquine, Artemisinin","Use Mosquito Nets, Stay Hydrated, Complete Medication Course"
+1,0,0,0,0,0,0,1,0,1,1,0,0,0,0,0,0,1,0,1,Unknown Condition,General Health Checkup,Consult a Doctor,Seek Medical Attention
+1,0,0,1,0,1,1,1,1,1,0,0,0,1,0,1,0,0,0,1,Unknown Condition,General Health Checkup,Consult a Doctor,Seek Medical Attention
+0,1,1,1,1,1,1,0,0,1,0,0,0,0,0,1,1,1,0,1,Tuberculosis,"TB Skin Test, Chest X-ray","Isoniazid, Rifampin","Take Full Course of Medications, Avoid Public Places"
+1,1,1,0,0,1,0,1,1,0,1,0,0,1,1,1,1,0,1,0,Flu,"Rapid Flu Test, Blood Test","Tamiflu, Acetaminophen","Rest, Stay Hydrated, Take Fever Reducers"
+0,1,0,1,0,1,1,1,0,1,1,0,1,1,1,0,0,1,0,1,Unknown Condition,General Health Checkup,Consult a Doctor,Seek Medical Attention
+1,0,0,1,0,1,0,1,1,1,0,1,1,1,1,0,0,1,0,0,Malaria,"Blood Smear, RDT Test","Chloroquine, Artemisinin","Use Mosquito Nets, Stay Hydrated, Complete Medication Course"
+1,0,1,0,1,1,1,1,1,0,1,0,0,1,1,0,0,1,1,0,Flu,"Rapid Flu Test, Blood Test","Tamiflu, Acetaminophen","Rest, Stay Hydrated, Take Fever Reducers"
+0,0,1,0,1,1,0,0,0,0,0,0,0,0,1,1,1,0,1,1,Unknown Condition,General Health Checkup,Consult a Doctor,Seek Medical Attention
+1,1,0,0,1,1,0,0,1,1,0,1,0,1,1,1,0,0,0,1,Pneumonia,"Chest X-ray, Sputum Test","Antibiotics, Cough Syrup","Rest, Drink Warm Fluids, Take Prescribed Antibiotics"
+0,1,0,1,1,1,0,0,1,0,1,1,1,1,0,0,1,1,0,1,Food Poisoning,"Stool Test, Blood Test","Oral Rehydration Salts, Anti-Nausea Pills","Stay Hydrated, Avoid Solid Foods, Rest Well"
+0,1,1,1,0,0,1,0,0,1,0,0,0,0,1,1,1,1,1,1,Migraine,"MRI, CT Scan","Ibuprofen, Sumatriptan","Avoid Bright Lights, Maintain Sleep Schedule, Take Pain Relievers"
+0,0,1,1,1,0,1,0,0,0,0,0,1,0,1,1,1,1,1,0,Migraine,"MRI, CT Scan","Ibuprofen, Sumatriptan","Avoid Bright Lights, Maintain Sleep Schedule, Take Pain Relievers"
+1,1,1,0,0,0,0,0,1,0,1,0,0,0,0,1,0,0,0,0,Flu,"Rapid Flu Test, Blood Test","Tamiflu, Acetaminophen","Rest, Stay Hydrated, Take Fever Reducers"
+1,1,0,1,0,1,1,1,1,1,0,1,1,1,1,0,1,0,1,0,Malaria,"Blood Smear, RDT Test","Chloroquine, Artemisinin","Use Mosquito Nets, Stay Hydrated, Complete Medication Course"
+1,0,0,1,1,1,0,0,0,1,0,0,1,0,0,1,0,0,0,0,Unknown Condition,General Health Checkup,Consult a Doctor,Seek Medical Attention
+1,0,1,1,1,1,0,1,1,1,0,0,0,0,1,0,1,0,0,1,Flu,"Rapid Flu Test, Blood Test","Tamiflu, Acetaminophen","Rest, Stay Hydrated, Take Fever Reducers"
+1,0,1,1,1,0,1,1,1,1,0,0,0,1,1,1,1,0,0,1,Flu,"Rapid Flu Test, Blood Test","Tamiflu, Acetaminophen","Rest, Stay Hydrated, Take Fever Reducers"
+0,1,0,0,0,0,1,0,0,0,0,0,0,0,1,1,0,0,1,1,Unknown Condition,General Health Checkup,Consult a Doctor,Seek Medical Attention
+0,0,0,1,0,0,1,0,1,1,0,1,0,0,1,1,0,0,1,0,Migraine,"MRI, CT Scan","Ibuprofen, Sumatriptan","Avoid Bright Lights, Maintain Sleep Schedule, Take Pain Relievers"
+0,1,1,0,0,0,1,0,1,0,1,1,0,0,0,0,1,0,1,1,Tuberculosis,"TB Skin Test, Chest X-ray","Isoniazid, Rifampin","Take Full Course of Medications, Avoid Public Places"
+1,1,1,0,1,1,1,1,1,1,0,0,1,1,0,1,0,0,1,1,Pneumonia,"Chest X-ray, Sputum Test","Antibiotics, Cough Syrup","Rest, Drink Warm Fluids, Take Prescribed Antibiotics"
+1,0,1,0,0,1,1,1,1,1,1,1,1,0,0,0,0,1,1,1,Flu,"Rapid Flu Test, Blood Test","Tamiflu, Acetaminophen","Rest, Stay Hydrated, Take Fever Reducers"
+0,1,1,1,1,1,0,1,0,0,0,0,0,0,0,1,1,0,0,0,Unknown Condition,General Health Checkup,Consult a Doctor,Seek Medical Attention
+0,0,1,1,0,0,0,0,1,1,1,0,1,1,0,1,0,1,1,0,Migraine,"MRI, CT Scan","Ibuprofen, Sumatriptan","Avoid Bright Lights, Maintain Sleep Schedule, Take Pain Relievers"
+0,1,0,0,0,0,1,1,1,1,1,1,0,1,0,1,1,1,0,1,Unknown Condition,General Health Checkup,Consult a Doctor,Seek Medical Attention
+0,0,0,1,1,0,0,0,0,0,1,0,0,0,1,0,0,0,1,0,Unknown Condition,General Health Checkup,Consult a Doctor,Seek Medical Attention
+1,1,0,1,1,1,1,1,0,0,0,0,1,0,1,0,0,1,1,0,Pneumonia,"Chest X-ray, Sputum Test","Antibiotics, Cough Syrup","Rest, Drink Warm Fluids, Take Prescribed Antibiotics"
+1,1,0,1,1,1,0,0,1,1,0,0,0,1,0,1,0,1,1,1,Pneumonia,"Chest X-ray, Sputum Test","Antibiotics, Cough Syrup","Rest, Drink Warm Fluids, Take Prescribed Antibiotics"
+0,1,0,1,0,1,1,0,1,0,1,1,1,1,0,0,0,1,1,0,Food Poisoning,"Stool Test, Blood Test","Oral Rehydration Salts, Anti-Nausea Pills","Stay Hydrated, Avoid Solid Foods, Rest Well"
+0,0,0,1,0,0,0,0,0,0,0,1,1,1,0,0,1,1,1,0,Unknown Condition,General Health Checkup,Consult a Doctor,Seek Medical Attention
+0,0,0,1,0,0,1,1,0,0,1,0,1,1,0,1,0,0,1,0,Migraine,"MRI, CT Scan","Ibuprofen, Sumatriptan","Avoid Bright Lights, Maintain Sleep Schedule, Take Pain Relievers"
+0,0,1,1,0,1,1,1,0,0,1,0,0,1,0,0,0,0,0,1,Unknown Condition,General Health Checkup,Consult a Doctor,Seek Medical Attention
+0,0,0,0,0,1,0,1,0,0,1,0,0,1,0,0,0,1,0,1,Unknown Condition,General Health Checkup,Consult a Doctor,Seek Medical Attention
+0,1,0,0,0,1,0,0,1,1,1,1,0,1,1,0,0,0,0,0,Food Poisoning,"Stool Test, Blood Test","Oral Rehydration Salts, Anti-Nausea Pills","Stay Hydrated, Avoid Solid Foods, Rest Well"
+1,0,1,1,0,1,0,0,1,1,0,0,0,1,0,1,1,0,1,0,Flu,"Rapid Flu Test, Blood Test","Tamiflu, Acetaminophen","Rest, Stay Hydrated, Take Fever Reducers"
+0,0,0,0,1,1,1,0,1,1,0,0,1,1,1,0,1,1,0,1,Unknown Condition,General Health Checkup,Consult a Doctor,Seek Medical Attention
+1,0,0,1,1,1,1,1,0,1,0,1,0,1,1,1,1,0,1,0,Migraine,"MRI, CT Scan","Ibuprofen, Sumatriptan","Avoid Bright Lights, Maintain Sleep Schedule, Take Pain Relievers"
+1,1,1,1,1,1,0,0,1,0,1,0,0,1,0,1,1,0,0,0,Pneumonia,"Chest X-ray, Sputum Test","Antibiotics, Cough Syrup","Rest, Drink Warm Fluids, Take Prescribed Antibiotics"
+0,1,1,1,1,1,1,0,1,1,0,1,1,0,0,0,1,0,0,1,Tuberculosis,"TB Skin Test, Chest X-ray","Isoniazid, Rifampin","Take Full Course of Medications, Avoid Public Places"
+1,0,0,1,1,1,1,1,0,0,0,0,0,1,1,1,1,0,1,0,Migraine,"MRI, CT Scan","Ibuprofen, Sumatriptan","Avoid Bright Lights, Maintain Sleep Schedule, Take Pain Relievers"
+1,0,1,1,1,1,0,1,1,1,0,0,1,0,0,0,0,0,1,0,Flu,"Rapid Flu Test, Blood Test","Tamiflu, Acetaminophen","Rest, Stay Hydrated, Take Fever Reducers"
+1,1,1,1,0,0,1,1,0,1,1,0,0,1,0,1,1,1,1,1,Migraine,"MRI, CT Scan","Ibuprofen, Sumatriptan","Avoid Bright Lights, Maintain Sleep Schedule, Take Pain Relievers"
+0,1,1,0,1,0,1,1,1,0,0,0,1,1,0,1,1,0,0,0,Bronchitis,"Chest X-ray, Pulmonary Test","Cough Syrup, Bronchodilators","Avoid Smoke, Stay Hydrated, Rest"
+0,0,1,0,0,1,0,0,0,1,1,0,1,0,0,0,1,0,1,0,Unknown Condition,General Health Checkup,Consult a Doctor,Seek Medical Attention
+0,0,1,1,0,0,0,1,0,0,1,0,1,0,0,0,1,1,1,1,Unknown Condition,General Health Checkup,Consult a Doctor,Seek Medical Attention
+0,1,0,0,1,1,0,1,0,0,0,1,0,0,0,1,1,0,1,1,Unknown Condition,General Health Checkup,Consult a Doctor,Seek Medical Attention
+0,0,1,0,1,0,1,1,1,0,0,0,0,1,0,0,0,1,1,0,Unknown Condition,General Health Checkup,Consult a Doctor,Seek Medical Attention
+0,1,0,0,0,0,0,1,0,1,0,0,0,0,1,1,1,0,1,0,Unknown Condition,General Health Checkup,Consult a Doctor,Seek Medical Attention
+0,0,0,1,0,1,0,1,1,0,0,0,1,1,1,0,1,0,0,0,Unknown Condition,General Health Checkup,Consult a Doctor,Seek Medical Attention
+1,1,0,1,1,0,0,1,0,0,1,1,0,0,0,0,0,0,1,1,Pneumonia,"Chest X-ray, Sputum Test","Antibiotics, Cough Syrup","Rest, Drink Warm Fluids, Take Prescribed Antibiotics"
+0,0,1,1,0,1,0,0,0,1,1,0,0,1,1,1,1,0,0,1,Unknown Condition,General Health Checkup,Consult a Doctor,Seek Medical Attention
+1,1,1,0,0,0,1,1,0,0,0,0,1,0,0,1,1,1,1,1,Dengue,General Health Checkup,Consult a Doctor,Seek Medical Attention
+1,1,1,0,0,0,0,0,0,0,1,1,0,1,1,0,1,0,1,1,Tuberculosis,"TB Skin Test, Chest X-ray","Isoniazid, Rifampin","Take Full Course of Medications, Avoid Public Places"
+1,0,1,0,1,0,0,0,1,0,1,0,0,1,1,1,1,0,0,0,Flu,"Rapid Flu Test, Blood Test","Tamiflu, Acetaminophen","Rest, Stay Hydrated, Take Fever Reducers"
+0,0,1,0,0,1,1,1,1,0,0,0,0,0,1,1,1,0,0,1,Unknown Condition,General Health Checkup,Consult a Doctor,Seek Medical Attention
+0,1,1,1,0,1,0,0,1,1,1,0,1,1,1,1,1,1,1,0,Migraine,"MRI, CT Scan","Ibuprofen, Sumatriptan","Avoid Bright Lights, Maintain Sleep Schedule, Take Pain Relievers"
+0,0,1,0,0,0,0,1,1,1,1,0,0,1,1,0,0,0,0,1,Unknown Condition,General Health Checkup,Consult a Doctor,Seek Medical Attention
+1,0,0,0,0,1,1,1,0,1,1,0,1,1,0,0,1,1,0,1,Dengue,General Health Checkup,Consult a Doctor,Seek Medical Attention
+1,1,0,0,1,1,1,0,1,0,0,1,1,1,0,0,1,0,0,1,Pneumonia,"Chest X-ray, Sputum Test","Antibiotics, Cough Syrup","Rest, Drink Warm Fluids, Take Prescribed Antibiotics"
+0,0,1,1,0,1,0,1,1,1,1,1,1,0,0,0,1,0,0,0,Food Poisoning,"Stool Test, Blood Test","Oral Rehydration Salts, Anti-Nausea Pills","Stay Hydrated, Avoid Solid Foods, Rest Well"
+1,0,0,0,1,0,0,0,0,0,0,0,0,1,1,1,0,1,0,1,Malaria,"Blood Smear, RDT Test","Chloroquine, Artemisinin","Use Mosquito Nets, Stay Hydrated, Complete Medication Course"
+1,1,0,1,0,0,0,0,0,0,0,1,0,1,1,1,0,0,1,0,Migraine,"MRI, CT Scan","Ibuprofen, Sumatriptan","Avoid Bright Lights, Maintain Sleep Schedule, Take Pain Relievers"
+0,0,1,1,0,1,1,1,1,1,0,1,0,0,1,1,1,1,1,1,Migraine,"MRI, CT Scan","Ibuprofen, Sumatriptan","Avoid Bright Lights, Maintain Sleep Schedule, Take Pain Relievers"
+0,0,0,0,1,1,0,0,0,1,0,0,1,1,0,0,1,0,1,0,Unknown Condition,General Health Checkup,Consult a Doctor,Seek Medical Attention
+1,0,0,1,1,1,1,1,1,0,1,0,1,1,1,0,0,1,0,0,Malaria,"Blood Smear, RDT Test","Chloroquine, Artemisinin","Use Mosquito Nets, Stay Hydrated, Complete Medication Course"
+0,1,0,0,0,0,1,0,0,1,0,0,0,0,1,0,1,0,0,0,Unknown Condition,General Health Checkup,Consult a Doctor,Seek Medical Attention
+0,1,1,0,1,1,1,1,1,0,0,1,0,0,0,1,1,0,0,1,Tuberculosis,"TB Skin Test, Chest X-ray","Isoniazid, Rifampin","Take Full Course of Medications, Avoid Public Places"
+0,0,0,1,1,1,1,0,0,0,1,0,1,0,0,0,1,1,0,0,Unknown Condition,General Health Checkup,Consult a Doctor,Seek Medical Attention
+0,1,0,0,1,0,0,0,1,1,1,1,1,0,0,0,1,1,0,1,Unknown Condition,General Health Checkup,Consult a Doctor,Seek Medical Attention
+0,0,1,1,1,1,0,1,0,1,0,1,1,0,1,0,1,1,0,0,Unknown Condition,General Health Checkup,Consult a Doctor,Seek Medical Attention
+1,0,0,1,0,0,1,0,0,0,0,1,0,0,1,1,0,0,1,1,Migraine,"MRI, CT Scan","Ibuprofen, Sumatriptan","Avoid Bright Lights, Maintain Sleep Schedule, Take Pain Relievers"
+1,0,0,0,0,1,1,0,1,1,1,1,0,0,1,1,1,0,1,0,Food Poisoning,"Stool Test, Blood Test","Oral Rehydration Salts, Anti-Nausea Pills","Stay Hydrated, Avoid Solid Foods, Rest Well"
+0,1,0,1,0,0,1,0,0,1,0,1,1,0,0,1,1,0,1,1,Migraine,"MRI, CT Scan","Ibuprofen, Sumatriptan","Avoid Bright Lights, Maintain Sleep Schedule, Take Pain Relievers"
+0,0,0,1,0,0,0,0,1,0,1,0,1,1,0,1,0,1,0,1,Unknown Condition,General Health Checkup,Consult a Doctor,Seek Medical Attention
+0,0,1,0,0,0,0,1,1,1,0,0,1,1,0,0,0,0,1,0,Unknown Condition,General Health Checkup,Consult a Doctor,Seek Medical Attention
+1,1,1,1,0,1,1,0,1,0,1,1,1,1,0,1,0,0,0,1,Flu,"Rapid Flu Test, Blood Test","Tamiflu, Acetaminophen","Rest, Stay Hydrated, Take Fever Reducers"
+1,0,1,0,1,1,0,0,0,1,0,0,0,0,0,0,1,0,0,1,Unknown Condition,General Health Checkup,Consult a Doctor,Seek Medical Attention
+1,1,0,0,0,1,1,0,0,0,1,1,0,0,0,1,0,1,1,1,Food Poisoning,"Stool Test, Blood Test","Oral Rehydration Salts, Anti-Nausea Pills","Stay Hydrated, Avoid Solid Foods, Rest Well"
+0,0,0,1,1,1,1,0,1,1,1,1,0,1,1,1,1,0,1,0,Food Poisoning,"Stool Test, Blood Test","Oral Rehydration Salts, Anti-Nausea Pills","Stay Hydrated, Avoid Solid Foods, Rest Well"
+1,1,1,1,1,1,0,0,0,0,0,0,0,0,1,1,1,0,0,1,Pneumonia,"Chest X-ray, Sputum Test","Antibiotics, Cough Syrup","Rest, Drink Warm Fluids, Take Prescribed Antibiotics"
+1,1,1,0,1,0,1,0,1,0,1,1,1,1,0,1,0,0,1,1,Pneumonia,"Chest X-ray, Sputum Test","Antibiotics, Cough Syrup","Rest, Drink Warm Fluids, Take Prescribed Antibiotics"
+1,0,0,0,1,0,0,0,0,1,0,0,1,0,1,0,1,0,1,0,Unknown Condition,General Health Checkup,Consult a Doctor,Seek Medical Attention
+1,1,1,0,1,0,0,0,1,1,0,0,1,1,0,0,1,1,1,1,Pneumonia,"Chest X-ray, Sputum Test","Antibiotics, Cough Syrup","Rest, Drink Warm Fluids, Take Prescribed Antibiotics"
+0,1,0,1,1,1,0,1,1,1,1,0,1,0,1,1,0,0,1,1,Migraine,"MRI, CT Scan","Ibuprofen, Sumatriptan","Avoid Bright Lights, Maintain Sleep Schedule, Take Pain Relievers"
+0,0,1,0,0,0,1,0,1,1,1,0,1,0,0,0,1,1,1,0,Unknown Condition,General Health Checkup,Consult a Doctor,Seek Medical Attention
+1,0,1,0,1,0,1,0,1,1,0,1,0,0,0,0,0,0,0,1,Flu,"Rapid Flu Test, Blood Test","Tamiflu, Acetaminophen","Rest, Stay Hydrated, Take Fever Reducers"
+0,0,1,0,1,1,0,1,1,1,1,0,1,0,1,0,1,0,1,1,Unknown Condition,General Health Checkup,Consult a Doctor,Seek Medical Attention
+1,0,1,1,0,0,0,0,1,1,1,1,1,0,1,1,1,1,0,1,Flu,"Rapid Flu Test, Blood Test","Tamiflu, Acetaminophen","Rest, Stay Hydrated, Take Fever Reducers"
+1,1,0,1,1,1,0,0,1,0,1,1,0,0,1,1,0,1,0,0,Pneumonia,"Chest X-ray, Sputum Test","Antibiotics, Cough Syrup","Rest, Drink Warm Fluids, Take Prescribed Antibiotics"
+0,1,1,1,0,0,1,0,0,1,1,1,0,1,1,0,1,0,1,0,Unknown Condition,General Health Checkup,Consult a Doctor,Seek Medical Attention
+0,1,0,1,1,1,0,0,1,1,1,1,1,0,1,0,0,1,0,0,Food Poisoning,"Stool Test, Blood Test","Oral Rehydration Salts, Anti-Nausea Pills","Stay Hydrated, Avoid Solid Foods, Rest Well"
+1,1,1,0,1,1,0,0,0,1,0,0,0,1,0,1,1,0,0,1,Pneumonia,"Chest X-ray, Sputum Test","Antibiotics, Cough Syrup","Rest, Drink Warm Fluids, Take Prescribed Antibiotics"
+1,0,1,1,0,0,0,0,1,1,0,0,1,1,1,1,1,1,1,0,Flu,"Rapid Flu Test, Blood Test","Tamiflu, Acetaminophen","Rest, Stay Hydrated, Take Fever Reducers"
+0,0,1,0,1,0,1,1,0,1,0,1,0,0,0,1,1,0,1,0,Unknown Condition,General Health Checkup,Consult a Doctor,Seek Medical Attention
+1,0,1,0,0,1,0,1,0,0,1,0,0,0,1,0,0,0,1,1,Unknown Condition,General Health Checkup,Consult a Doctor,Seek Medical Attention
+1,1,0,0,1,1,0,1,1,0,1,0,1,1,1,0,0,0,1,1,Pneumonia,"Chest X-ray, Sputum Test","Antibiotics, Cough Syrup","Rest, Drink Warm Fluids, Take Prescribed Antibiotics"
+1,0,0,1,0,1,0,0,1,0,1,0,0,1,1,1,1,1,0,0,Dengue,General Health Checkup,Consult a Doctor,Seek Medical Attention
+0,0,1,1,0,0,1,0,1,1,1,0,1,0,0,0,1,1,0,0,Unknown Condition,General Health Checkup,Consult a Doctor,Seek Medical Attention
+1,1,1,1,0,0,1,0,1,0,1,0,1,0,0,1,0,1,0,0,Flu,"Rapid Flu Test, Blood Test","Tamiflu, Acetaminophen","Rest, Stay Hydrated, Take Fever Reducers"
+1,1,1,0,1,0,1,1,1,0,1,1,0,1,0,1,1,0,0,0,Pneumonia,"Chest X-ray, Sputum Test","Antibiotics, Cough Syrup","Rest, Drink Warm Fluids, Take Prescribed Antibiotics"
+0,0,1,1,1,0,1,1,1,0,0,1,1,1,1,0,0,0,1,0,Unknown Condition,General Health Checkup,Consult a Doctor,Seek Medical Attention
+0,0,0,0,1,0,1,0,1,1,0,1,1,1,1,1,0,0,0,1,Heart Attack,General Health Checkup,Consult a Doctor,Seek Medical Attention
+0,1,1,1,0,0,1,1,0,0,1,0,1,0,0,0,1,0,1,0,Bronchitis,"Chest X-ray, Pulmonary Test","Cough Syrup, Bronchodilators","Avoid Smoke, Stay Hydrated, Rest"
+1,1,0,1,0,0,0,0,0,1,0,0,0,1,0,0,0,0,1,1,Unknown Condition,General Health Checkup,Consult a Doctor,Seek Medical Attention
