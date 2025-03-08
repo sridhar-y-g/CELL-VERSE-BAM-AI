@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Advanced AI Symptom Checker</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 20px;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        h1 {
+            color: #007bff;
+            text-align: center;
+        }
+        .symptom-group {
+            background-color: #fff;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .symptom-group h2 {
+            color: #007bff;
+            margin-top: 0;
+        }
+        .symptom-group label {
+            display: block;
+            margin-bottom: 8px;
+        }
+        button {
+            background-color: #007bff;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-right: 10px;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+        #results {
+            margin-top: 20px;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            background-color: #e9f7ff;
+        }
+        #results p {
+            margin-bottom: 10px;
+        }
+        #results hr {
+            border-color: #ddd;
+        }
+        #results b {
+            color: #007bff;
+        }
+        .resetButton {
+            background-color: #dc3545;
+        }
+        .resetButton:hover {
+            background-color: #c82333;
+        }
+        #loading {
+            display: none;
+            text-align: center;
+            margin-top: 20px;
+            font-style: italic;
+        }
+        #downloadLink, #treatmentDownloadLink {
+            background-color: #28a745;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 10px;
+            text-decoration: none;
+            display: block;
+            width: fit-content;
+        }
+        #downloadLink:hover, #treatmentDownloadLink:hover {
+            background-color: #218838;
+        }
+        .treatment, .tests, .medicine {
+            margin-top: 10px;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            background-color: #f9f9f9;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Advanced AI Symptom Checker</h1>
+
+    <div class="symptom-group" id="generalSymptoms">
+        <h2>General Symptoms:</h2>
+    </div>
+
+    <div class="symptom-group" id="respiratorySymptoms">
+        <h2>Respiratory Symptoms:</h2>
+    </div>
+
+    <div class="symptom-group" id="digestiveSymptoms">
+        <h2>Digestive Symptoms:</h2>
+    </div>
+
+    <button onclick="checkSymptoms()">Check Symptoms</button>
+    <button class="resetButton" onclick="resetSymptoms()">Reset</button>
+
+    <div id="loading">Analyzing symptoms...</div>
+    <div id="results"></div>
+
+    <script>
+        const symptoms = {
+            generalSymptoms: ['fever', 'fatigue', 'headache', 'chills'],
+            respiratorySymptoms: ['cough', 'sore_throat', 'shortness_of_breath', 'runny_nose'],
+            digestiveSymptoms: ['nausea', 'vomiting', 'diarrhea', 'abdominal_pain']
+        };
+
+        const diseaseMapping = {
+            "Pneumonia": {
+                symptoms: ["Fever", "Cough", "Shortness of Breath"],
+                treatment: "Antibiotics, rest, fluids.",
+                tests: "Chest X-ray, blood tests.",
+                medicine: "Amoxicillin, Azithromycin."
+            },
+            "Flu": {
+                symptoms: ["Fever", "Body Aches", "Fatigue"],
+                treatment: "Rest, fluids, pain relievers.",
+                tests: "Rapid flu test.",
+                medicine: "Oseltamivir (Tamiflu), Paracetamol."
+            },
+            "Food Poisoning": {
+                symptoms: ["Nausea", "Vomiting", "Diarrhea"],
+                treatment: "Hydration, bland diet.",
+                tests: "Stool culture.",
+                medicine: "Oral rehydration salts, Loperamide (Imodium)."
+            },
+            "Migraine": {
+                symptoms: ["Headache", "Blurred Vision", "Dizziness"],
+                treatment: "Pain relievers, rest.",
+                tests: "Neurological exam.",
+                medicine: "Ibuprofen, Sumatriptan."
+            },
+            "Dengue": {
+                symptoms: ["Skin Rash", "Joint Pain", "Fever"],
+                treatment: "Rest, fluids, pain relievers.",
+                tests: "Dengue antibody test.",
+                medicine: "Paracetamol."
+            },
+            "Heart Attack": {
+                symptoms: ["Chest Pain", "Sweating", "Dizziness"],
+                treatment: "Immediate medical attention.",
+                tests: "ECG, blood tests.",
+                medicine: "Aspirin, Nitroglycerin."
+            },
+            "Tuberculosis": {
+                symptoms: ["Cough", "Fatigue", "Weight Loss"],
+                treatment: "Long-term antibiotics.",
+                tests: "Sputum test, chest X-ray.",
+                medicine: "Isoniazid, Rifampin."
+            },
+            "Strep Throat": {
+                symptoms: ["Sore Throat", "Fever", "Swollen Lymph Nodes"],
+                treatment: "Antibiotics.",
+                tests: "Throat swab.",
+                medicine: "Penicillin, Amoxicillin."
+            },
+            "Common Cold": {
+                symptoms: ["Runny Nose", "Sneezing", "Cough"],
+                treatment: "Rest, fluids, pain relievers.",
+                tests: "Usually not needed.",
+                medicine: "Paracetamol, Decongestants."
+            },
+            "Malaria": {
+                symptoms: ["Chills", "Sweating", "Fever"],
+                treatment: "Antimalarial medication.",
+                tests: "Blood smear.",
+                medicine: "Artemisinin-based combination therapies (ACTs)."
+            },
+            "Bronchitis": {
+                symptoms: ["Cough", "Chest Pain", "Fatigue"],
+                treatment: "Rest, fluids, cough suppressants.",
+                tests: "Chest X-ray.",
+                medicine: "Guaifenesin, Albuterol (if wheezing)."
+            },
+            "Asthma": {
+                symptoms: ["Shortness of Breath", "Wheezing", "Chest Tightness"],
+                treatment: "Inhalers, steroids.",
+                tests: "Pulmonary function tests.",
+                medicine: "Albuterol, Fluticasone."
+            },
+            "Sinusitis": {
+                symptoms: ["Headache", "Runny Nose", "Facial Pain"],
+                treatment: "Decongestants, saline nasal spray.",
+                tests: "Usually not needed.",
+                medicine: "Pseudoephedrine, Saline spray."
+            },
+            "COVID-19": {
+                symptoms: ["Fever", "Cough", "Loss of Taste or Smell"],
+                treatment: "Rest, fluids, supportive care.",
+                tests: "PCR test.",
+                medicine: "Paracetamol, antiviral medications (if prescribed)."
+            },
+            "Chickenpox": {
+                symptoms: ["Skin Rash", "Fever", "Itching"],
+                treatment: "Calamine lotion, pain relievers.",
+                tests: "Clinical diagnosis.",
+                medicine: "Paracetamol, Antihistamines."
+            },
+            "Measles": {
+                symptoms: ["Skin Rash", "Cough", "Fever"],
+                treatment: "Rest, fluids, vitamin A.",
+                tests: "Blood tests.",
+                medicine: "Paracetamol, Vitamin A supplements."
+            },
+            "Anemia": {
+                symptoms: ["Fatigue", "Dizziness", "Pale Skin"],
+                treatment: "Iron supplements, dietary changes.",
+                tests: "Complete blood count (CBC).",
+                medicine: "Iron supplements."
+            },
+            "Appendicitis": {
+                symptoms: ["Abdominal Pain", "Nausea", "Vomiting"],
+                treatment: "Surgery.",
+                tests: "CT scan, ultrasound.",
+                medicine: "Antibiotics before surgery."
+            },
+            "Hypertension": {
+                symptoms: ["Headache", "Dizziness", "Blurred Vision"],
+                treatment: "Lifestyle changes, medication.",
+                tests: "Blood pressure monitoring.",
+                medicine: "Lisinopril, Amlodipine."
+            },
+            "Diabetes": {
+                symptoms: ["Frequent Urination", "Increased Thirst", "Fatigue"],
+                treatment: "Insulin, medication, diet.",
+                tests: "Blood glucose tests.",
+                medicine: "Metformin, Insulin."
+            }
+        };
+
+        function populateSymptoms() {
+            for (const group in symptoms) {
+                const container = document.getElementById(group);
+                symptoms[group].forEach(symptom => {
+                    const label = document.createElement('label');
+                    const checkbox = document.createElement('input');
+                    checkbox.type = 'checkbox';
+                    checkbox.value = symptom.charAt(0).toUpperCase() + symptom.slice(1);
+                    label.appendChild(checkbox);
+                    label.appendChild(document.createTextNode(` ${symptom.charAt(0).toUpperCase() + symptom.slice(1).replace(/_/g, ' ')}`));
+                    container.appendChild(label);
+                });
+            }
+        }
+
+        populateSymptoms();
+
+        function analyzeSymptoms(symptoms) {
+            const symptomSet = new Set(symptoms);
+            const possibleDiseases = [];
+
+            for (const disease in diseaseMapping) {
+                const diseaseSymptoms = diseaseMapping[disease].symptoms.map(s => s.toLowerCase());
+                let matchCount = 0;
+
+                for (const symptom of diseaseSymptoms) {
+                    if (symptomSet.has(symptom)) {
+                        matchCount++;
+                    }
+                }
+
+                if (matchCount === diseaseSymptoms.length && diseaseSymptoms.length > 0) {
+                    return { accurate: `Possible: ${disease} (100%).` };
+                } else if (matchCount > 0) {
+                    possibleDiseases.push({
+                        disease: disease,
+                        matchPercentage: (matchCount / diseaseSymptoms.length) * 100
+                    });
+                }
+            }
+
+            if (possibleDiseases.length === 0) {
+                return { general: "Based on the symptoms, a diagnosis is difficult. Consult a doctor." };
+            } else {
+                possibleDiseases.sort((a, b) => b.matchPercentage - a.matchPercentage);
+
+                if (possibleDiseases[0].matchPercentage === 100) {
+                    return { accurate: `Possible: ${possibleDiseases[0].disease} (100%).` };
+                }
+
+                let resultString = "Possible: ";
+                for (let i = 0; i < possibleDiseases.length; i++) {
+                    resultString += `${possibleDiseases[i].disease} (${possibleDiseases[i].matchPercentage.toFixed(0)}%)`;
+                    if (i < possibleDiseases.length - 1) {
+                        resultString += ", ";
+                    }
+                }
+                return { general: resultString + "." };
+            }
+        }
+
+        // function checkSymptoms() {
+        //     const selectedSymptoms = [];
+        //     const checkboxes = document.querySelectorAll('input[type="checkbox"]:checked');
+        //     checkboxes.forEach(checkbox => {
+        //         selectedSymptoms.push(checkbox.value.toLowerCase());
+        //     });
+
+        //     const resultsDiv = document.getElementById('results');
+        //     resultsDiv.innerHTML = '';
+        //     const loadingDiv = document.getElementById('loading');
+
+        //     if (selectedSymptoms.length === 0) {
+        //         resultsDiv.textContent = 'Please select at least one symptom.';
+        //         return;
+        //     }
+        //     loadingDiv.style.display = "block";
+
+        //     const analysis = analyzeSymptoms(selectedSymptoms);
+
+        //     if (analysis.accurate) {
+        //         const diseaseName = analysis.accurate.match(/Possible: (.+) \(100%\)/)[1];
+        //         const diseaseInfo = diseaseMapping[diseaseName];
+
+        //         if (diseaseInfo) {
+        //             resultsDiv.innerHTML = `<p>AI Analysis: ${analysis.accurate}</p>`;
+
+        //             const treatmentDiv = document.createElement('div');
+        //             treatmentDiv.className = 'treatment';
+        //             treatmentDiv.innerHTML = `<b>Treatment:</b> ${diseaseInfo.treatment}`;
+        //             resultsDiv.appendChild(treatmentDiv);
+
+        //             const testsDiv = document.createElement('div');
+        //             testsDiv.className = 'tests';
+        //             testsDiv.innerHTML = `<b>Tests:</b> ${diseaseInfo.tests}`;
+        //             resultsDiv.appendChild(testsDiv);
+
+        //             const medicineDiv = document.createElement('div');
+        //             medicineDiv.className = 'medicine';
+        //             medicineDiv.innerHTML = `<b>Medicine:</b> ${diseaseInfo.medicine}`;
+        //             resultsDiv.appendChild(medicineDiv);
+
+        //             createDownloadLink(analysis.accurate, diseaseInfo);
+        //             createTreatmentDownloadLink(diseaseInfo);
+        //         }
+        //     } else if (analysis.general) {
+        //         resultsDiv.innerHTML = `<p>AI Analysis: ${analysis.general}</p>`;
+        //         createDownloadLink(analysis.general, null);
+        //     }
+
+        //     loadingDiv.style.display = "none";
+
+        //     resultsDiv.innerHTML += "<hr><p><b>Upending Methods Information:</b></p>";
+        //     resultsDiv.innerHTML += "<p>Modern healthcare leverages AI and machine learning for diagnostics. Telemedicine offers remote consultations. Personalised medicine, based on genomic data, allows for tailored treatments.</p>";
+        //     resultsDiv.innerHTML += "<p>Wearable devices and mobile apps facilitate continuous health monitoring, empowering individuals. These technologies provide quicker, more accurate and more accessible healthcare.</p>";
+        //     resultsDiv.innerHTML += "<p>Remember, this is not a replacement for professional medical advice. Consult a healthcare provider for diagnosis and treatment.</p>";
+        // }
+        function checkSymptoms() {
+    const selectedSymptoms = [];
+    const checkboxes = document.querySelectorAll('input[type="checkbox"]:checked');
+    checkboxes.forEach(checkbox => {
+        selectedSymptoms.push(checkbox.value.toLowerCase());
+    });
+
+    const resultsDiv = document.getElementById('results');
+    resultsDiv.innerHTML = '';
+    const loadingDiv = document.getElementById('loading');
+
+    if (selectedSymptoms.length === 0) {
+        resultsDiv.textContent = 'Please select at least one symptom.';
+        return;
+    }
+    loadingDiv.style.display = "block";
+
+    const analysis = analyzeSymptoms(selectedSymptoms);
+
+    if (analysis.accurate) {
+        const diseaseName = analysis.accurate.match(/Possible: (.+) \(100%\)/)[1];
+        const diseaseInfo = diseaseMapping[diseaseName];
+
+        resultsDiv.innerHTML = `<p>AI Analysis: ${analysis.accurate}</p>`;
+
+        const treatmentDiv = document.createElement('div');
+        treatmentDiv.className = 'treatment';
+        treatmentDiv.innerHTML = `<b>Treatment:</b> ${diseaseInfo.treatment}`;
+        resultsDiv.appendChild(treatmentDiv);
+
+        const testsDiv = document.createElement('div');
+        testsDiv.className = 'tests';
+        testsDiv.innerHTML = `<b>Tests:</b> ${diseaseInfo.tests}`;
+        resultsDiv.appendChild(testsDiv);
+
+        const medicineDiv = document.createElement('div');
+        medicineDiv.className = 'medicine';
+        medicineDiv.innerHTML = `<b>Medicine:</b> ${diseaseInfo.medicine}`;
+        resultsDiv.appendChild(medicineDiv);
+
+        createDownloadLink(analysis.accurate, diseaseInfo);
+        createTreatmentDownloadLink(diseaseInfo);
+
+    } else if (analysis.general) {
+        resultsDiv.innerHTML = `<p>AI Analysis: ${analysis.general}</p>`;
+        createDownloadLink(analysis.general, null);
+    }
+
+    loadingDiv.style.display = "none";
+
+    resultsDiv.innerHTML += "<hr><p><b>Upending Methods Information:</b></p>";
+    resultsDiv.innerHTML += "<p>Modern healthcare leverages AI and machine learning for diagnostics. Telemedicine offers remote consultations. Personalised medicine, based on genomic data, allows for tailored treatments.</p>";
+    resultsDiv.innerHTML += "<p>Wearable devices and mobile apps facilitate continuous health monitoring, empowering individuals. These technologies provide quicker, more accurate and more accessible healthcare.</p>";
+    resultsDiv.innerHTML += "<p>Remember, this is not a replacement for professional medical advice. Consult a healthcare provider for diagnosis and treatment.</p>";
+}
+
+        function resetSymptoms() {
+            const checkboxes = document.querySelectorAll('input[type="checkbox"]:checked');
+            checkboxes.forEach(checkbox => {
+                checkbox.checked = false;
+            });
+            document.getElementById('results').innerHTML = "";
+        }
+
+        function createDownloadLink(reportContent, diseaseInfo) {
+            let downloadText = reportContent;
+            if (diseaseInfo) {
+                downloadText += `\n\nTreatment: ${diseaseInfo.treatment}\nTests: ${diseaseInfo.tests}\nMedicine: ${diseaseInfo.medicine}`;
+            }
+
+            const downloadLink = document.createElement('a');
+            downloadLink.href = 'data:text/plain;charset=utf-8,' + encodeURIComponent(downloadText);
+            downloadLink.download = 'symptom_report.txt';
+            downloadLink.textContent = 'Download Report';
+            downloadLink.id = "downloadLink";
+            document.getElementById('results').appendChild(downloadLink);
+        }
+
+        function createTreatmentDownloadLink(diseaseInfo) {
+            let downloadText = `Treatment: ${diseaseInfo.treatment}\nTests: ${diseaseInfo.tests}\nMedicine: ${diseaseInfo.medicine}`;
+
+            const downloadLink = document.createElement('a');
+            downloadLink.href = 'data:text/plain;charset=utf-8,' + encodeURIComponent(downloadText);
+            downloadLink.download = 'treatment_report.txt';
+            downloadLink.textContent = 'Download Treatment Info';
+            downloadLink.id = "treatmentDownloadLink";
+            document.getElementById('results').appendChild(downloadLink);
+        }
+    </script>
+
+</body>
+</html>
