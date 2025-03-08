@@ -60,11 +60,6 @@ This solution fosters ethical, inclusive, and accountable AI in healthcare, prio
    bash
    python app.py
    
-4. Run the frontend:
-   bash
-   npm start
-   
-5. Access the application at http://localhost:3000
 
 ## Previous Results
 During our AI & Data Science Codeathon at IIIT Bangalore, presented by RBI and Canara Bank, our team developed *Veda 1.0*, an AI & Data Science model that provided:
