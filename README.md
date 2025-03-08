@@ -1,6 +1,6 @@
 # Cellverse_BAM_AI
 
-# Bias-Aware Medical AI (BAM-AI) Framework
+# Bias-Aware Medical AI (BAM-AI)
 
 ## Problem Statement
 AI-driven healthcare has the potential to improve patient outcomes, but biases in training data can lead to misdiagnoses, unequal treatment, and ethical concerns. A lack of transparency in AI decision-making further risks compromising patient trust and fairness.
@@ -41,11 +41,9 @@ This solution fosters ethical, inclusive, and accountable AI in healthcare, prio
 - *Report Generation* – Users can download AI-generated medical reports.
 
 ## Technologies Used
-- *Frontend:* React.js, HTML, CSS, JavaScript
+- *Frontend:* HTML, CSS, JavaScript
 - *Backend:* Python (Flask/Django), TensorFlow, Pandas
 - *Database:* PostgreSQL/MySQL
-- *AI/ML:* Scikit-learn, TensorFlow
-- *Security & Compliance:* HIPAA, GDPR compliance
 
 ## Installation
 1. Clone the repository:
@@ -56,7 +54,7 @@ This solution fosters ethical, inclusive, and accountable AI in healthcare, prio
 2. Install dependencies:
    bash
    pip install -r requirements.txt  # For backend
-   npm install  # For frontend
+   
    
 3. Run the backend:
    bash
@@ -87,11 +85,6 @@ These experiences have guided the development of BAM-AI, ensuring a robust, fair
 
 ## Contributors
 - *Soumyadeep Sarkar*
-- *[Your Team Members]*
-
-## License
-This project is licensed under the MIT License.
-
----
-
-### 🚀 Join us in making healthcare AI more fair, transparent, and reliable!
+- *Sridhar Y Gowdar*
+- *Sridhar R*
+- - *Dhrub Pandit*
